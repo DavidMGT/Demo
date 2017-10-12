@@ -1,6 +1,8 @@
 package cn.rongcloud.aochuang.ui.fragment;
 
 import android.content.Intent;
+import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
@@ -21,6 +23,15 @@ import io.rong.imlib.model.Conversation;
  * Created by Yuejunhong on 2016/10/10.
  */
 public class ConversationFragmentEx extends ConversationFragment {
+
+    private View mCustomlayout;
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        View view = super.onCreateView(inflater, container, savedInstanceState);
+        mCustomlayout = view.findViewById(io.rong.imkit.R.id.mCustomLayout);
+        return view;
+    }
 
     @Override
     public void onReadReceiptStateClick(io.rong.imlib.model.Message message) {
@@ -54,7 +65,12 @@ public class ConversationFragmentEx extends ConversationFragment {
     public void onSwitchToggleClick(View v, ViewGroup inputBoard) {
         // super.onSwitchToggleClick(v, inputBoard);
         ((ImageView) v).setImageResource(R.drawable.app_icon);
-        ToastUtil.showToast(getContext(), "onSwitchToggleClick");
+//        ToastUtil.showToast(getContext(), "onSwitchToggleClick");
+        if (mCustomlayout.getVisibility() !=View.VISIBLE) {
+            mCustomlayout.setVisibility(View.VISIBLE);
+        } else {
+            mCustomlayout.setVisibility(View.GONE);
+        }
     }
 
     @Override
