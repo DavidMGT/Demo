@@ -15,4 +15,14 @@ allprojects {
         jcenter()
         mavenCentral()
     }
+
+}
+ext {
+    COMPILE_SDK_VERSION = 25
+    BUILD_TOOLS_VERSION = "25.0.2"
+    TARGET_SDK_VERSION = 25
+    MIN_SDK_VERSION = 19
+    ANDROID_SUPPORT_VERSION = "25.1.0"
+    APP_VERSION_CODE = 136
+    APP_VERSION_NAME = "1.0"
 }
