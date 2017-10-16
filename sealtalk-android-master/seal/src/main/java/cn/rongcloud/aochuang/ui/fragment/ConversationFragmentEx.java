@@ -1,19 +1,31 @@
 package cn.rongcloud.aochuang.ui.fragment;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.inputmethod.InputMethodManager;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.jrmf360.rylib.common.util.ToastUtil;
 
 import cn.rongcloud.aochuang.R;
 import cn.rongcloud.aochuang.ui.activity.ReadReceiptDetailActivity;
+import cn.rongcloud.aochuang.ui.manager.StakeManager;
+import io.rong.eventbus.EventBus;
 import io.rong.imkit.fragment.ConversationFragment;
 import io.rong.imkit.plugin.IPluginModule;
+import io.rong.imlib.IRongCallback;
+import io.rong.imlib.RongIMClient;
 import io.rong.imlib.model.Conversation;
+import io.rong.imlib.model.Message;
+import io.rong.message.TextMessage;
 
 /**
  * 会话 Fragment 继承自ConversationFragment
@@ -23,13 +35,12 @@ import io.rong.imlib.model.Conversation;
  * Created by Yuejunhong on 2016/10/10.
  */
 public class ConversationFragmentEx extends ConversationFragment {
-
-    private View mCustomlayout;
+    private StakeManager manager;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = super.onCreateView(inflater, container, savedInstanceState);
-        mCustomlayout = view.findViewById(io.rong.imkit.R.id.mCustomLayout);
+        manager = new StakeManager(this, view);
         return view;
     }
 
@@ -61,15 +72,13 @@ public class ConversationFragmentEx extends ConversationFragment {
         ToastUtil.showToast(getContext(), "onMenuClick :root-=" + root + " :sub=" + sub);
     }
 
+    private View originView;
+
     @Override
     public void onSwitchToggleClick(View v, ViewGroup inputBoard) {
-        // super.onSwitchToggleClick(v, inputBoard);
         ((ImageView) v).setImageResource(R.drawable.app_icon);
-//        ToastUtil.showToast(getContext(), "onSwitchToggleClick");
-        if (mCustomlayout.getVisibility() !=View.VISIBLE) {
-            mCustomlayout.setVisibility(View.VISIBLE);
-        } else {
-            mCustomlayout.setVisibility(View.GONE);
+        if (!manager.onSwitchToggleClick(v, inputBoard)) {
+            super.onSwitchToggleClick(v, inputBoard);
         }
     }
 
@@ -78,4 +87,10 @@ public class ConversationFragmentEx extends ConversationFragment {
         super.onEmoticonToggleClick(v, extensionBoard);
         ToastUtil.showToast(getContext(), "onEmoticonToggleClick");
     }
+
+    @Override
+    public void onPluginToggleClick(View v, ViewGroup extensionBoard) {
+        manager.onPluginToggleClick(v, extensionBoard);
+    }
+
 }

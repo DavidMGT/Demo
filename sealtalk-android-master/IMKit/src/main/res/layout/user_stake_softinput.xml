@@ -4,7 +4,7 @@
     android:id="@+id/mCustomLayout"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="#eee"
+    android:background="#ddd"
     android:orientation="vertical"
     android:visibility="gone"
     tools:visibility="visible">
@@ -16,6 +16,7 @@
         android:showDividers="middle">
 
         <Button
+            android:id="@+id/user_stake_side_1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
@@ -24,6 +25,7 @@
             android:textColor="#0000ff" />
 
         <Button
+            android:id="@+id/user_stake_side_2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
@@ -34,6 +36,7 @@
             android:textColor="#377d4b" />
 
         <Button
+            android:id="@+id/user_stake_side_3"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
@@ -49,6 +52,7 @@
         android:showDividers="middle">
 
         <Button
+            android:id="@+id/user_stake_side_4"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
@@ -58,6 +62,7 @@
 
 
         <Button
+            android:id="@+id/user_stake_side_5"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
@@ -67,6 +72,7 @@
             android:textColor="#987974" />
 
         <Button
+            android:id="@+id/user_stake_side_6"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
@@ -76,6 +82,7 @@
             android:textColor="#377d4b" />
 
         <Button
+            android:id="@+id/user_stake_side_7"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
@@ -85,6 +92,7 @@
             android:textColor="#7ee2ff" />
 
         <Button
+            android:id="@+id/user_stake_side_8"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
@@ -110,6 +118,7 @@
                 android:layout_height="wrap_content">
 
                 <Button
+                    android:id="@+id/user_stake_num_1"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
@@ -119,6 +128,7 @@
 
 
                 <Button
+                    android:id="@+id/user_stake_num_2"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
@@ -127,6 +137,7 @@
                     android:textColor="#333" />
 
                 <Button
+                    android:id="@+id/user_stake_num_3"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
@@ -140,6 +151,7 @@
                 android:layout_height="wrap_content">
 
                 <Button
+                    android:id="@+id/user_stake_num_4"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
@@ -149,6 +161,7 @@
 
 
                 <Button
+                    android:id="@+id/user_stake_num_5"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
@@ -157,6 +170,7 @@
                     android:textColor="#333" />
 
                 <Button
+                    android:id="@+id/user_stake_num_6"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
@@ -170,6 +184,7 @@
                 android:layout_height="wrap_content">
 
                 <Button
+                    android:id="@+id/user_stake_num_7"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
@@ -179,6 +194,7 @@
 
 
                 <Button
+                    android:id="@+id/user_stake_num_8"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
@@ -187,6 +203,7 @@
                     android:textColor="#333" />
 
                 <Button
+                    android:id="@+id/user_stake_num_9"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
@@ -203,12 +220,13 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
-                    android:background="@drawable/user_stake_softinput_btn_fang"
+                    android:background="@android:color/transparent"
                     android:clickable="false"
                     android:textColor="#333" />
 
 
                 <Button
+                    android:id="@+id/user_stake_num_10"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
@@ -220,7 +238,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
-                    android:background="@drawable/user_stake_softinput_btn_fang"
+                    android:background="@android:color/transparent"
                     android:clickable="false"
                     android:textColor="#333" />
             </LinearLayout>
@@ -232,15 +250,17 @@
             android:layout_weight="1"
             android:orientation="vertical">
 
-            <Button
+            <ImageButton
+                android:id="@+id/user_stake_num_11"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:background="@drawable/user_stake_softinput_btn_fang"
-                android:text="x"
+                android:src="@drawable/user_backspace"
                 android:textColor="#333" />
 
             <Button
+                android:id="@+id/user_stake_confirm"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="3"
