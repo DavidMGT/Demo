@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:minHeight="48dp">
@@ -8,6 +9,7 @@
         android:id="@+id/ext_main_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
         android:gravity="center_vertical"
         android:orientation="horizontal"
         android:paddingLeft="6dp"
@@ -28,14 +30,14 @@
                 android:layout_marginRight="6dp"
                 android:scaleType="center"
                 android:src="@drawable/rc_menu_text_selector"
-                android:visibility="gone" />
+                android:visibility="gone"/>
 
             <View
                 android:id="@+id/rc_switch_divider"
                 android:layout_width="1px"
                 android:layout_height="48dp"
                 android:background="@color/rc_divider_line"
-                android:visibility="gone" />
+                android:visibility="gone"/>
 
             <ImageView
                 android:id="@+id/rc_voice_toggle"
@@ -44,8 +46,7 @@
                 android:layout_gravity="center_vertical"
                 android:layout_marginLeft="6dp"
                 android:layout_marginRight="6dp"
-                android:padding="4dp"
-                android:src="@drawable/user_alter_voice_switch_selector" />
+                android:src="@drawable/rc_voice_toggle_selector"/>
         </LinearLayout>
 
         <!-- 文本，表情输入容器，通过控制“语音”，容器中填充不同的内容 -->
@@ -54,9 +55,9 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:gravity="center_vertical"
+            android:paddingTop="3dp"
             android:paddingBottom="3dp"
-            android:paddingTop="3dp" />
+            android:gravity="center_vertical"/>
 
         <!-- 扩展栏 “+号” 布局-->
         <LinearLayout
@@ -71,22 +72,14 @@
                 android:id="@+id/rc_plugin_toggle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/rc_plugin_toggle_selector" />
+                android:src="@drawable/rc_plugin_toggle_selector"/>
         </LinearLayout>
-
     </LinearLayout>
-
-    <include
-        layout="@layout/user_stake_softinput"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/ext_main_bar" />
 
     <!-- 底部分割线 -->
     <View
         android:layout_width="match_parent"
         android:layout_height="2px"
         android:layout_alignParentTop="true"
-        android:background="@color/rc_divider_color" />
-
+        android:background="@color/rc_divider_color"/>
 </RelativeLayout>

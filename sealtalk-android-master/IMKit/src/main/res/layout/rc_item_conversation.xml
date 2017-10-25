@@ -6,21 +6,20 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@android:color/transparent"
-    android:gravity="center_vertical"
-    android:padding="10dp">
+    android:gravity="center_vertical">
 
     <FrameLayout
         android:id="@id/rc_item1"
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
         android:layout_alignParentLeft="true"
         android:layout_centerVertical="true"
         android:layout_marginLeft="6dp">
 
         <io.rong.imkit.widget.AsyncImageView
             android:id="@+id/rc_left"
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
             android:layout_gravity="center"
             android:background="@android:color/transparent"
             app:RCCornerRadius="3dp"
@@ -35,7 +34,7 @@
             <ImageView
                 android:id="@+id/rc_unread_message_icon"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"/>
 
             <TextView
                 android:id="@+id/rc_unread_message"
@@ -43,7 +42,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:textColor="@android:color/white"
-                android:textSize="12sp" />
+                android:textSize="10dp" />
         </FrameLayout>
     </FrameLayout>
 
@@ -58,8 +57,8 @@
 
     <FrameLayout
         android:id="@id/rc_item2"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
         android:layout_alignParentRight="true"
         android:background="@android:color/transparent">
 
