@@ -22,654 +22,13 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="044fbf08-d769-4603-ab45-f55eda09df11" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_ac_albums.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_ac_camera.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_ac_file_download.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_ac_file_list.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_ac_file_manager.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_ac_file_preview_content.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_ac_picture_pager.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_ac_webview.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_base_activity_layout.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_camera.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_conversation_notification_container.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_cs_alert_human_evaluation.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_cs_alert_robot_evaluation.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_cs_alert_warning.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_cs_evaluate.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_cs_item_single_choice.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_cs_leave_message.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_cs_single_choice_layout.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_dialog_popup_options.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_dialog_popup_options_item.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_dialog_popup_prompt.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_dialog_popup_prompt_warning.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_ext_emoji_grid_view.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_ext_emoji_item.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_ext_emoji_pager.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_ext_emoticon_tab_container.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_ext_emoticon_tab_item.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_ext_extension_bar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_ext_indicator.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_ext_input_edit_text.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_ext_menu_container.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_ext_plugin_grid_view.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_ext_plugin_item.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_ext_plugin_pager.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_ext_root_menu_item.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_ext_sub_menu_container.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_ext_sub_menu_item.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_ext_voice_input.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_fr_conversation.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_fr_conversation_member_list.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_fr_conversationlist.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_fr_dialog_alter.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_fr_file_list.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_fr_image.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_fr_messagelist.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_fr_photo.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_fr_public_service_inf.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_fr_public_service_search.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_fr_public_service_sub_list.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_fragment_base_setting.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_icon_rt_location_marker.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_input_pager_layout.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_item_app_service_conversation.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_item_base_conversation.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_item_conversation.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_item_conversation_member.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_item_discussion_conversation.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_item_discussion_notification_message.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_item_file_message.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_item_group_conversation.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_item_group_information_notification_message.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_item_image_message.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_item_information_notification_message.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_item_location_message.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_item_message.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_item_preview_fragment.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_item_progress.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_item_public_service_conversation.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_item_public_service_input_menu.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_item_public_service_input_menu_item.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_item_public_service_input_menus.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_item_public_service_list.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_item_public_service_message.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_item_public_service_multi_rich_content_message.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_item_public_service_rich_content_message.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_item_public_service_search.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_item_rich_content_message.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_item_system_conversation.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_item_text_message.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_item_text_message_evaluate.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_item_voice_message.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_location_preview_activity.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_location_real_time_activity.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_mention_list_item.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_mention_members.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_notification_realtime_location.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_pic_popup_window.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_picprev_activity.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_picsel_activity.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_picsel_catalog_listview.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_picsel_grid_camera.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_picsel_grid_item.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_picsel_original.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_picsel_preview.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_plugin_location_activity.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_refresh_list_view.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_share_location_message.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_wi_block.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_wi_block_popup.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_wi_file_list_adapter.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_wi_notice.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IMKit/src/main/res/res/layout/rc_wi_vo_popup.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ac_audio_file_icon.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ac_audio_file_icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ac_file_preview.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ac_file_preview.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ac_other_file_icon.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ac_other_file_icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ac_ram_icon.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ac_ram_icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ac_sd_card_icon.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ac_sd_card_icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ac_text_file_icon.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ac_text_file_icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ac_video_file_icon.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ac_video_file_icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ad_list_audio_icon.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ad_list_audio_icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ad_list_file_checked.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ad_list_file_checked.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ad_list_file_icon.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ad_list_file_icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ad_list_file_unchecked.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ad_list_file_unchecked.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ad_list_folder_icon.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ad_list_folder_icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ad_list_other_icon.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ad_list_other_icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ad_list_pdf_icon.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ad_list_pdf_icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ad_list_ppt_icon.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ad_list_ppt_icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ad_list_video_icon.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ad_list_video_icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_add_people.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_add_people.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_audio_toggle.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_audio_toggle.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_audio_toggle_hover.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_audio_toggle_hover.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_back_icon.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_back_icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_bg_toast.9.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_bg_toast.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_bg_voice_popup.9.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_bg_voice_popup.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_btn_download_cancel.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_btn_download_cancel.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_btn_open_file_normal.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_btn_open_file_normal.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_btn_open_file_selected.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_btn_open_file_selected.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_btn_pub_service_enter_hover.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_btn_pub_service_enter_hover.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_btn_pub_service_enter_normal.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_btn_pub_service_enter_normal.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_btn_pub_service_follow_hover.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_btn_pub_service_follow_hover.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_btn_pub_service_follow_normal.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_btn_pub_service_follow_normal.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_btn_send_hover.9.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_btn_send_hover.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_btn_send_normal.9.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_btn_send_normal.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_btn_voice_hover.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_btn_voice_hover.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_btn_voice_normal.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_btn_voice_normal.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_complete.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_complete.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_complete_hover.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_complete_hover.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_conversation_list_empty.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_conversation_list_empty.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_conversation_list_msg_send_failure.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_conversation_list_msg_send_failure.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_conversation_list_msg_sending.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_conversation_list_msg_sending.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_conversation_newmsg.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_conversation_newmsg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_admin.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_admin.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_admin_hover.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_admin_hover.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_back_icon.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_back_icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_back_press.9.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_back_press.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_button_bg.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_button_bg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_button_bg_hover.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_button_bg_hover.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_close.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_close.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_comment_bg.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_comment_bg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_default_portrait.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_default_portrait.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_delete.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_delete.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_evaluate_plugin.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_evaluate_plugin.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_evaluate_plugin_hover.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_evaluate_plugin_hover.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_follow.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_follow.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_follow_hover.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_follow_hover.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_group_cancel_normal.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_group_cancel_normal.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_group_cancel_pressed.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_group_cancel_pressed.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_group_check.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_group_check.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_group_list_divide_line.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_group_list_divide_line.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_group_ok_disabled.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_group_ok_disabled.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_group_ok_normal.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_group_ok_normal.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_group_ok_pressed.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_group_ok_pressed.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_group_uncheck.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_group_uncheck.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_leave_message_bg.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_leave_message_bg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_leave_message_bg_hover.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_leave_message_bg_hover.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_resolved.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_resolved.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_resolved_hover.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_resolved_hover.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_star.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_star.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_star_hover.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_star_hover.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_unresolved.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_unresolved.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_unresolved_hover.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_cs_unresolved_hover.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_default_discussion_portrait.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_default_discussion_portrait.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_default_group_portrait.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_default_group_portrait.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_default_portrait.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_default_portrait.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ed_pub_service_search_hover.9.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ed_pub_service_search_hover.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ed_pub_service_search_normal.9.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ed_pub_service_search_normal.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_edit_text_background.9.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_edit_text_background.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_edit_text_background_hover.9.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_edit_text_background_hover.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_emotion_toggle.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_emotion_toggle.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_emotion_toggle_hover.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_emotion_toggle_hover.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ext_indicator.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ext_indicator.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ext_indicator_hover.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ext_indicator_hover.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ext_location_marker.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ext_location_marker.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ext_location_tip.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ext_location_tip.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ext_locator.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ext_locator.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ext_my_locator.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ext_my_locator.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ext_plugin_image.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ext_plugin_image.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ext_plugin_image_pressed.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ext_plugin_image_pressed.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ext_plugin_location.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ext_plugin_location.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ext_plugin_location_pressed.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ext_plugin_location_pressed.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ext_plugin_toggle.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ext_plugin_toggle.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ext_plugin_toggle_hover.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ext_plugin_toggle_hover.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ext_realtime_default_avatar.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ext_realtime_default_avatar.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ext_tab_add.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ext_tab_add.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ext_voice_btn_hover.9.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ext_voice_btn_hover.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ext_voice_btn_normal.9.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ext_voice_btn_normal.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_file_icon_audio.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_file_icon_audio.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_file_icon_cancel.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_file_icon_cancel.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_file_icon_else.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_file_icon_else.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_file_icon_excel.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_file_icon_excel.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_file_icon_file.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_file_icon_file.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_file_icon_pdf.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_file_icon_pdf.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_file_icon_picture.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_file_icon_picture.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_file_icon_ppt.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_file_icon_ppt.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_file_icon_video.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_file_icon_video.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_file_icon_word.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_file_icon_word.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_fr_file_list_ad_icon_file.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_fr_file_list_ad_icon_file.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_fr_file_list_ad_icon_folder.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_fr_file_list_ad_icon_folder.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_grid_camera.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_grid_camera.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_grid_image_default.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_grid_image_default.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_bubble_left.9.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_bubble_left.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_bubble_left_file.9.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_bubble_left_file.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_bubble_no_left.9.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_bubble_no_left.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_bubble_no_right.9.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_bubble_no_right.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_bubble_right.9.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_bubble_right.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_bubble_right_file.9.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_bubble_right_file.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_bubble_white.9.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_bubble_white.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_checkbox_full.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_checkbox_full.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_checkbox_none.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_checkbox_none.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_def_coversation_portrait.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_def_coversation_portrait.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_def_msg_portrait.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_def_msg_portrait.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_def_rich_content.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_def_rich_content.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_emoji_block.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_emoji_block.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_files_normal.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_files_normal.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_files_pressed.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_files_pressed.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_location_item_default.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_location_item_default.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_location_normal.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_location_normal.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_location_pressed.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_location_pressed.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_message_block.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_message_block.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_no.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_no.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_no_hover.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_no_hover.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_notice_loading.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_notice_loading.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_notice_point.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_notice_point.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_notice_wraning.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_notice_wraning.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_phone_normal.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_phone_normal.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_phone_pressed.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_phone_pressed.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_setting_friends_add.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_setting_friends_add.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_setting_friends_delete.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_setting_friends_delete.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_star.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_star.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_star_hover.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_star_hover.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_voice_receive.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_voice_receive.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_voice_receive_play1.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_voice_receive_play1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_voice_receive_play2.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_voice_receive_play2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_voice_receive_play3.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_voice_receive_play3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_voice_sent.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_voice_sent.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_voice_sent_play1.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_voice_sent_play1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_voice_sent_play2.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_voice_sent_play2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_voice_sent_play3.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_voice_sent_play3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_volume_0.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_volume_0.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_volume_1.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_volume_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_volume_2.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_volume_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_volume_3.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_volume_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_volume_4.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_volume_4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_volume_5.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_volume_5.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_volume_6.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_volume_6.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_volume_7.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_volume_7.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_volume_8.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_volume_8.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_volume_cancel.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_volume_cancel.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_volume_wraning.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_volume_wraning.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_warning.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_warning.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_yes.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_yes.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_yes_hover.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_ic_yes_hover.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_icon_admin.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_icon_admin.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_icon_admin_hover.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_icon_admin_hover.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_icon_emoji_delete.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_icon_emoji_delete.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_icon_rt_message_left.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_icon_rt_message_left.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_icon_rt_message_right.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_icon_rt_message_right.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_image_default.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_image_default.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_image_error.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_image_error.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_img_camera.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_img_camera.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_input_sub_menu_bg.9.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_input_sub_menu_bg.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_keyboard.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_keyboard.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_keyboard_hover.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_keyboard_hover.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_loading.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_loading.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_mebmer_delete.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_mebmer_delete.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_menu_keyboard.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_menu_keyboard.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_menu_keyboard_hover.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_menu_keyboard_hover.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_menu_text.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_menu_text.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_menu_text_hover.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_menu_text_hover.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_menu_trangle.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_menu_trangle.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_no.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_no.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_no_hover.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_no_hover.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_notification_connecting.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_notification_connecting.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_notification_network_available.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_notification_network_available.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_origin_check_nor.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_origin_check_nor.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_origin_check_sel.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_origin_check_sel.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_pb_file_download_progress_background.9.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_pb_file_download_progress_background.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_pb_file_download_progress_progress.9.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_pb_file_download_progress_progress.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_picsel_back_normal.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_picsel_back_normal.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_picsel_back_pressed.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_picsel_back_pressed.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_picsel_catalog_pic_shadow.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_picsel_catalog_pic_shadow.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_picsel_catalog_selected.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_picsel_catalog_selected.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_picsel_empty_pic.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_picsel_empty_pic.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_picsel_pictype_normal.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_picsel_pictype_normal.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_plugin_default.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_plugin_default.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_praise.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_praise.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_praise_hover.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_praise_hover.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_public_service_menu_bg.9.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_public_service_menu_bg.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_radio_button_off.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_radio_button_off.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_radio_button_on.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_radio_button_on.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_read_receipt.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_read_receipt.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_read_receipt_request.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_read_receipt_request.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_read_receipt_request_hover.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_read_receipt_request_hover.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_real_time_location_exit.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_real_time_location_exit.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_real_time_location_hide.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_real_time_location_hide.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_receive_voice_one.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_receive_voice_one.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_receive_voice_three.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_receive_voice_three.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_receive_voice_two.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_receive_voice_two.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_rt_loc_myself.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_rt_loc_myself.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_rt_loc_other.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_rt_loc_other.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_rt_location_arrow.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_rt_location_arrow.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_rt_location_bar.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_rt_location_bar.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_select_check_nor.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_select_check_nor.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_select_check_sel.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_select_check_sel.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_selector_title_pic_back_press.9.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_selector_title_pic_back_press.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_send_toggle.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_send_toggle.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_send_toggle_hover.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_send_toggle_hover.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_send_voice_one.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_send_voice_one.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_send_voice_three.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_send_voice_three.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_send_voice_two.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_send_voice_two.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_tab_emoji.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_tab_emoji.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_unread_count_bg.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_unread_count_bg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_unread_msg_arrow.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_unread_msg_arrow.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_unread_remind_list_count.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_unread_remind_list_count.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_unread_remind_without_count.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_unread_remind_without_count.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_voice_icon_left.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_voice_icon_left.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_voice_icon_right.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_voice_icon_right.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_voice_input_toggle.9.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_voice_input_toggle.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_voice_input_toggle_hover.9.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_voice_input_toggle_hover.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_voice_unread.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_voice_unread.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_voide_message_unread.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/rc_voide_message_unread.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f004.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f004.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f30f.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f30f.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f319.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f319.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f332.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f332.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f339.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f339.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f33b.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f33b.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f349.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f349.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f356.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f356.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f35a.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f35a.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f366.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f366.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f36b.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f36b.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f377.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f377.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f37b.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f37b.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f381.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f381.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f382.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f382.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f384.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f384.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f389.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f389.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f393.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f393.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f3a4.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f3a4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f3b2.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f3b2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f3b5.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f3b5.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f3c0.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f3c0.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f3c2.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f3c2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f3e1.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f3e1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f434.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f434.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f436.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f436.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f437.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f437.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f44a.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f44a.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f44c.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f44c.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f44d.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f44d.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f44e.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f44e.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f44f.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f44f.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f451.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f451.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f46a.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f46a.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f46b.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f46b.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f47b.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f47b.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f47c.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f47c.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f47d.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f47d.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f47f.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f47f.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f484.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f484.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f48a.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f48a.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f48b.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f48b.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f48d.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f48d.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f494.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f494.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f4a1.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f4a1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f4a2.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f4a2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f4a3.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f4a3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f4a4.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f4a4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f4a9.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f4a9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f4aa.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f4aa.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f4b0.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f4b0.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f4da.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f4da.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f4de.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f4de.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f4e2.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f4e2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f525.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f525.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f52b.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f52b.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f556.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f556.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f600.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f600.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f601.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f601.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f602.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f602.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f603.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f603.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f605.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f605.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f606.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f606.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f607.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f607.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f608.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f608.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f609.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f609.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f60a.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f60a.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f60b.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f60b.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f60c.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f60c.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f60d.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f60d.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f60e.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f60e.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f60f.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f60f.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f611.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f611.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f612.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f612.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f613.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f613.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f614.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f614.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f615.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f615.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f616.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f616.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f618.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f618.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f61a.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f61a.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f61c.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f61c.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f61d.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f61d.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f61e.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f61e.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f61f.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f61f.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f621.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f621.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f622.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f623.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f623.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f624.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f624.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f628.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f628.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f629.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f629.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f62a.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f62a.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f62b.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f62b.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f62c.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f62c.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f62d.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f62d.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f62e.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f62e.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f62f.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f62f.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f630.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f630.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f631.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f631.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f632.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f632.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f633.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f633.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f634.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f634.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f635.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f635.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f636.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f636.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f637.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f637.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f648.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f648.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f649.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f649.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f64a.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f64a.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f64f.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f64f.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f680.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f680.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f6ab.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f6ab.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f6b2.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f6b2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f6bf.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u1f6bf.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u23f0.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u23f0.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u23f3.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u23f3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u2600.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u2600.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u2601.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u2601.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u2614.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u2614.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u2615.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u2615.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u261d.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u261d.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u263a.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u263a.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u26a1.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u26a1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u26bd.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u26bd.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u26c4.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u26c4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u26c5.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u26c5.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u270a.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u270a.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u270b.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u270b.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u270c.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u270c.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u270f.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u270f.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u2744.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u2744.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u2b50.png" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable-xhdpi/u2b50.png" />
+    <list default="true" readonly="true" id="044fbf08-d769-4603-ab45-f55eda09df11" name="Default" comment="更换为最新的lib库">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/color/rc_btn_file_list_send.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/color/rc_btn_file_list_send.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_ac_btn_file_download_open_button.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_ac_btn_file_download_open_button.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_an_voice_receive.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_an_voice_receive.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_an_voice_sent.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_an_voice_sent.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_bg_item.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_bg_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_bg_mentionlist_item.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_bg_mentionlist_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_bg_menu.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_bg_menu.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_bg_sidebar.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_bg_sidebar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_btn_input.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_btn_input.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_btn_public_service_enter_selector.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_btn_public_service_enter_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_btn_public_service_unfollow_selector.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_btn_public_service_unfollow_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_btn_send.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_btn_send.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_btn_voice.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_btn_voice.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_corner_location_style.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_corner_location_style.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_corner_popup_dialog_style.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_corner_popup_dialog_style.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_corner_style.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_corner_style.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_corner_voice_style.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_corner_voice_style.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_cs_admin_selector.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_cs_admin_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_cs_back_selector.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_cs_back_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_cs_corner_single_check_style.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_cs_corner_single_check_style.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_cs_evaluate_selector.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_cs_evaluate_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_cs_group_checkbox_selector.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_cs_group_checkbox_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_cs_group_dialog_cancel_selector.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_cs_group_dialog_cancel_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_cs_group_dialog_ok_selector.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_cs_group_dialog_ok_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_cs_group_ok_text_selector.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_cs_group_ok_text_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_cs_leave_message_btn.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_cs_leave_message_btn.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_cs_list_divider_style.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_cs_list_divider_style.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_cs_ratingbar.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_cs_ratingbar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_cs_submit_comment.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_cs_submit_comment.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_ed_public_service_search_selector.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_ed_public_service_search_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_edit_text_background_selector.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_edit_text_background_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_emoji_grid_item_selector.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_emoji_grid_item_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_emotion_toggle_selector.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_emotion_toggle_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_ext_plugin_image_selector.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_ext_plugin_image_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_ext_plugin_location_selector.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_ext_plugin_location_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_ic_files_selector.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_ic_files_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_ic_location.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_ic_location.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_ic_no_selector.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_ic_no_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_ic_phone_selector.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_ic_phone_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_ic_star_selector.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_ic_star_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_ic_yes_selector.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_ic_yes_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_item_list_selector.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_item_list_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_item_top_list_selector.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_item_top_list_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_keyboard_selector.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_keyboard_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_menu_background_selector.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_menu_background_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_menu_keyboard_selector.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_menu_keyboard_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_menu_text_selector.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_menu_text_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_message_checkbox.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_message_checkbox.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_notification_connecting_animated.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_notification_connecting_animated.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_pb_file_download_progress.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_pb_file_download_progress.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_plugin_toggle_selector.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_plugin_toggle_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_progress_sending_style.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_progress_sending_style.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_read_receipt_request_button.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_read_receipt_request_button.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_sel_picsel_toolbar_back.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_sel_picsel_toolbar_back.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_sel_picsel_toolbar_send.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_sel_picsel_toolbar_send.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_selector_grid_camera_mask.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_selector_grid_camera_mask.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_selector_title_back_press.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_selector_title_back_press.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_send_toggle_selector.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_send_toggle_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_sp_grid_mask.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_sp_grid_mask.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_switch_btn.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_switch_btn.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_unread_msg_bg_style.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_unread_msg_bg_style.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_voice_input_selector.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_voice_input_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/.project" afterPath="$PROJECT_DIR$/IMKit/src/main/.project" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_voice_toggle_selector.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_voice_toggle_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_white_bg_shape.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_white_bg_shape.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ac_albums.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ac_albums.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ac_camera.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ac_camera.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ac_file_download.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ac_file_download.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ac_file_list.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ac_file_list.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ac_file_manager.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ac_file_manager.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ac_file_preview_content.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ac_file_preview_content.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ac_picture_pager.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ac_picture_pager.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ac_webview.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ac_webview.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_base_activity_layout.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_base_activity_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_camera.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_camera.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_conversation_notification_container.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_conversation_notification_container.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_cs_alert_human_evaluation.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_cs_alert_human_evaluation.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_cs_alert_robot_evaluation.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_cs_alert_robot_evaluation.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_cs_alert_warning.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_cs_alert_warning.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_cs_evaluate.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_cs_evaluate.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_cs_item_single_choice.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_cs_item_single_choice.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_cs_leave_message.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_cs_leave_message.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_cs_single_choice_layout.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_cs_single_choice_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_dialog_popup_options.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_dialog_popup_options.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_dialog_popup_options_item.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_dialog_popup_options_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_dialog_popup_prompt.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_dialog_popup_prompt.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_dialog_popup_prompt_warning.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_dialog_popup_prompt_warning.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ext_emoji_grid_view.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ext_emoji_grid_view.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ext_emoji_item.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ext_emoji_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ext_emoji_pager.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ext_emoji_pager.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ext_emoticon_tab_container.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ext_emoticon_tab_container.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ext_emoticon_tab_item.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ext_emoticon_tab_item.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ext_extension_bar.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ext_extension_bar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ext_indicator.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ext_indicator.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ext_input_edit_text.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ext_input_edit_text.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ext_menu_container.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ext_menu_container.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ext_plugin_grid_view.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ext_plugin_grid_view.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ext_plugin_item.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ext_plugin_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ext_plugin_pager.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ext_plugin_pager.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ext_root_menu_item.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ext_root_menu_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ext_sub_menu_container.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ext_sub_menu_container.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ext_sub_menu_item.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ext_sub_menu_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ext_voice_input.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ext_voice_input.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_fr_conversation.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_fr_conversation.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_fr_conversation_member_list.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_fr_conversation_member_list.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_fr_conversationlist.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_fr_conversationlist.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_fr_dialog_alter.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_fr_dialog_alter.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_fr_file_list.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_fr_file_list.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_fr_image.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_fr_image.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_fr_messagelist.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_fr_messagelist.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_fr_photo.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_fr_photo.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_fr_public_service_inf.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_fr_public_service_inf.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_fr_public_service_search.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_fr_public_service_search.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_fr_public_service_sub_list.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_fr_public_service_sub_list.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_fragment_base_setting.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_fragment_base_setting.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_icon_rt_location_marker.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_icon_rt_location_marker.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_input_pager_layout.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_input_pager_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_app_service_conversation.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_app_service_conversation.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_base_conversation.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_base_conversation.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_conversation.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_conversation.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_conversation_member.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_conversation_member.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_discussion_conversation.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_discussion_conversation.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_discussion_notification_message.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_discussion_notification_message.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_file_message.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_file_message.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_group_conversation.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_group_conversation.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_group_information_notification_message.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_group_information_notification_message.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_image_message.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_image_message.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_information_notification_message.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_information_notification_message.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_location_message.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_location_message.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_message.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_message.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_preview_fragment.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_preview_fragment.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_progress.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_progress.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_public_service_conversation.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_public_service_conversation.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_public_service_input_menu.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_public_service_input_menu.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_public_service_input_menu_item.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_public_service_input_menu_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_public_service_input_menus.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_public_service_input_menus.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_public_service_list.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_public_service_list.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_public_service_message.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_public_service_message.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_public_service_multi_rich_content_message.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_public_service_multi_rich_content_message.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_public_service_rich_content_message.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_public_service_rich_content_message.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_public_service_search.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_public_service_search.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_rich_content_message.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_rich_content_message.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_system_conversation.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_system_conversation.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_text_message.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_text_message.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_text_message_evaluate.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_text_message_evaluate.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_voice_message.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_voice_message.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_location_preview_activity.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_location_preview_activity.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_location_real_time_activity.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_location_real_time_activity.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_mention_list_item.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_mention_list_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_mention_members.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_mention_members.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_notification_realtime_location.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_notification_realtime_location.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_pic_popup_window.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_pic_popup_window.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_picprev_activity.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_picprev_activity.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_picsel_activity.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_picsel_activity.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_picsel_catalog_listview.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_picsel_catalog_listview.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_picsel_grid_camera.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_picsel_grid_camera.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_picsel_grid_item.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_picsel_grid_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_picsel_original.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_picsel_original.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_picsel_preview.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_picsel_preview.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_plugin_location_activity.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_plugin_location_activity.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_refresh_list_view.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_refresh_list_view.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_share_location_message.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_share_location_message.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_wi_block.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_wi_block.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_wi_block_popup.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_wi_block_popup.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_wi_file_list_adapter.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_wi_file_list_adapter.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_wi_notice.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_wi_notice.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_wi_vo_popup.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_wi_vo_popup.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/values-en/rc_ext_string.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/values-en/rc_ext_string.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/values-en/rc_kit_string.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/values-en/rc_kit_string.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/values/rc_attrs.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/values/rc_attrs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/values/rc_color.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/values/rc_color.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/values/rc_config.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/values/rc_config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/values/rc_defaults.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/values/rc_defaults.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/values/rc_dimens.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/values/rc_dimens.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/values/rc_emoji.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/values/rc_emoji.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/values/rc_ext_attrs.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/values/rc_ext_attrs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/values/rc_ext_color.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/values/rc_ext_color.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/values/rc_ext_dimens.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/values/rc_ext_dimens.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/values/rc_ext_string.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/values/rc_ext_string.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/values/rc_extension_config.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/values/rc_extension_config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/values/rc_file_suffix.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/values/rc_file_suffix.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/values/rc_ids.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/values/rc_ids.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/values/rc_kit_string.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/values/rc_kit_string.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/values/rc_style.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/values/rc_style.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMKit/src/main/res/values/rc_theme.xml" afterPath="$PROJECT_DIR$/IMKit/src/main/res/values/rc_theme.xml" />
     </list>
+    <list id="81997f6d-1dda-4781-8c68-cff05986d42a" name="Revert: 提交押注软键盘 (3fe559a0703e262084c1e3f16413ca3903d3c069)" comment="" />
     <ignored path="sealtalk-android-master.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -701,137 +60,25 @@
     <favorites_list name="sealtalk-android-master" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="160">
-      <file leaf-file-name="CustomizeMessageItemProvider.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IMKit/src/main/java/io/rong/imkit/CustomizeMessageItemProvider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1073#1104#0" expanded="true" />
-                <element signature="e#1377#1430#0" expanded="true" />
-                <element signature="e#1400#1429#0" expanded="true" />
-                <element signature="e#1377#1430#0" expanded="true" />
-                <element signature="e#1898#2000#1" expanded="true" />
-                <element signature="e#2009#2046#1" expanded="true" />
-                <element signature="e#2072#2111#0" expanded="true" />
-                <element signature="e#2121#2140#0" expanded="true" />
-                <element signature="e#2121#2140#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SealAppContext.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/seal/src/main/java/cn/rongcloud/aochuang/SealAppContext.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="139" column="41" selection-start-line="139" selection-start-column="41" selection-end-line="139" selection-end-column="41" />
-              <folding>
-                <element signature="e#3360#3377#0" expanded="true" />
-                <element signature="e#3932#3933#0" expanded="true" />
-                <element signature="e#3973#3974#0" expanded="true" />
-                <element signature="e#4008#4009#0" expanded="true" />
-                <element signature="e#4039#4040#0" expanded="true" />
-                <element signature="e#4179#4199#0" expanded="true" />
-                <element signature="e#4269#4313#0" expanded="true" />
-                <element signature="e#4269#4313#0" expanded="true" />
-                <element signature="e#4338#4386#0" expanded="true" />
-                <element signature="e#4338#4386#0" expanded="true" />
-                <element signature="e#4396#4436#0" expanded="true" />
-                <element signature="e#4396#4436#0" expanded="true" />
-                <element signature="e#4543#4575#0" expanded="true" />
-                <element signature="e#4543#4575#0" expanded="true" />
-                <element signature="e#4744#4764#0" expanded="true" />
-                <element signature="e#4807#4827#0" expanded="true" />
-                <element signature="e#4867#4887#0" expanded="true" />
-                <element signature="e#4867#4917#0" expanded="true" />
-                <element signature="e#4867#4917#0" expanded="true" />
-                <element signature="e#5087#5255#0" expanded="true" />
-                <element signature="e#5254#5255#0" expanded="true" />
-                <element signature="e#5325#5577#1" expanded="true" />
-                <element signature="e#5365#5576#0" expanded="true" />
-                <element signature="e#5365#5576#0" expanded="true" />
-                <element signature="e#5586#5606#0" expanded="true" />
-                <element signature="e#5586#5648#0" expanded="true" />
-                <element signature="e#5586#5648#0" expanded="true" />
-                <element signature="e#5703#5743#0" expanded="true" />
-                <element signature="e#5703#5743#0" expanded="true" />
-                <element signature="e#5754#5847#1" expanded="true" />
-                <element signature="e#5790#5824#0" expanded="true" />
-                <element signature="e#5790#5846#0" expanded="true" />
-                <element signature="e#5856#5894#1" expanded="true" />
-                <element signature="e#5946#5969#0" expanded="true" />
-                <element signature="e#6210#6244#0" expanded="true" />
-                <element signature="e#6303#6337#0" expanded="true" />
-                <element signature="e#7026#7093#1" expanded="true" />
-                <element signature="e#7058#7092#0" expanded="true" />
-                <element signature="e#7174#7274#1" expanded="true" />
-                <element signature="e#7230#7273#0" expanded="true" />
-                <element signature="e#7291#7332#0" expanded="true" />
-                <element signature="e#7291#7357#0" expanded="true" />
-                <element signature="e#7291#7357#0" expanded="true" />
-                <element signature="e#7409#7446#0" expanded="true" />
-                <element signature="e#7478#7521#1" expanded="true" />
-                <element signature="e#7603#7640#0" expanded="true" />
-                <element signature="e#7812#7832#0" expanded="true" />
-                <element signature="e#7859#7899#0" expanded="true" />
-                <element signature="e#7901#7929#0" expanded="true" />
-                <element signature="e#8217#8270#1" expanded="true" />
-                <element signature="e#8249#8269#0" expanded="true" />
-                <element signature="e#8351#8451#1" expanded="true" />
-                <element signature="e#8407#8450#0" expanded="true" />
-                <element signature="e#8468#8509#0" expanded="true" />
-                <element signature="e#8468#8527#0" expanded="true" />
-                <element signature="e#8468#8527#0" expanded="true" />
-                <element signature="e#8667#8708#0" expanded="true" />
-                <element signature="e#8667#8733#0" expanded="true" />
-                <element signature="e#8667#8733#0" expanded="true" />
-                <element signature="e#8944#8981#0" expanded="true" />
-                <element signature="e#9364#9397#0" expanded="true" />
-                <element signature="e#9420#9464#0" expanded="true" />
-                <element signature="e#9549#9582#0" expanded="true" />
-                <element signature="e#9633#9677#0" expanded="true" />
-                <element signature="e#9715#9769#0" expanded="true" />
-                <element signature="e#9915#9944#0" expanded="true" />
-                <element signature="e#9957#10011#0" expanded="true" />
-                <element signature="e#10473#10567#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommandMessage.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/IMLib/libs/Rong_IMLib.jar!/io/rong/message/CommandMessage.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-              <folding>
-                <element signature="e#862#863#0" expanded="true" />
-                <element signature="e#919#920#0" expanded="true" />
-                <element signature="e#973#974#0" expanded="true" />
-                <element signature="e#1028#1029#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RectPicMessage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IMKit/src/main/java/io/rong/imkit/RectPicMessage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="352">
+      <file leaf-file-name="rc_ext_plugin_item.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ext_plugin_item.xml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
+          <provider selected="true" editor-type-id="android-designer2">
+            <state />
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="rc_ac_albums.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ac_albums.xml">
+      <file leaf-file-name="rc_ext_extension_bar.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ext_extension_bar.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="320">
+              <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -840,8 +87,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rc_ac_btn_file_download_open_button.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_ac_btn_file_download_open_button.xml">
+      <file leaf-file-name="user_alter_voice_switch.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IMKit/src/main/res/drawable/user_alter_voice_switch.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user_backspace.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IMKit/src/main/res/drawable/user_backspace.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -850,18 +107,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rc_btn_file_list_send.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IMKit/src/main/res/color/rc_btn_file_list_send.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rc_attrs.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IMKit/src/main/res/values/rc_attrs.xml">
+      <file leaf-file-name="user_stake_softinput_btn.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IMKit/src/main/res/drawable/user_stake_softinput_btn.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -870,25 +117,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rc_ext_string.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IMKit/src/main/res/values-en/rc_ext_string.xml">
+      <file leaf-file-name="user_stake_softinput_btn_fang.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IMKit/src/main/res/drawable/user_stake_softinput_btn_fang.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/IMKit/src/main/AndroidManifest.xml">
+      <file leaf-file-name="rc_voice_toggle_selector.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_voice_toggle_selector.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="android-manifest">
+        </entry>
+      </file>
+      <file leaf-file-name=".project" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IMKit/src/main/.project">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="3" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user_alter_voice_switch_hover.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IMKit/src/main/res/drawable/user_alter_voice_switch_hover.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user_stake_softinput.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IMKit/src/main/res/layout/user_stake_softinput.xml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer2">
             <state />
           </provider>
         </entry>
@@ -9225,8 +8502,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/seal/src/main/java/cn/hollywin/aochuang/server/network/http/BreakpointHttpResponseHandler.java" />
-        <option value="$PROJECT_DIR$/seal/src/main/java/cn/hollywin/aochuang/server/network/http/FileAsyncHttpResponseHandler.java" />
         <option value="$PROJECT_DIR$/seal/src/main/java/cn/hollywin/aochuang/server/network/http/HttpException.java" />
         <option value="$PROJECT_DIR$/seal/src/main/java/cn/hollywin/aochuang/server/network/http/JsonHttpResponseHandler.java" />
         <option value="$PROJECT_DIR$/seal/src/main/java/cn/hollywin/aochuang/server/network/http/MySSLSocketFactory.java" />
@@ -9252,7 +8527,6 @@
         <option value="$PROJECT_DIR$/seal/src/main/java/cn/rongcloud/aochuang/message/plugin/ResultPlugin.java" />
         <option value="$PROJECT_DIR$/seal/src/main/java/cn/rongcloud/aochuang/message/module/MyExtensionModule.java" />
         <option value="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ext_voice_input.xml" />
-        <option value="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ext_extension_bar.xml" />
         <option value="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ext_menu_container.xml" />
         <option value="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_fr_conversation.xml" />
         <option value="$PROJECT_DIR$/IMKit/src/main/java/io/rong/imkit/MainActivity.java" />
@@ -9276,12 +8550,15 @@
         <option value="$PROJECT_DIR$/seal/src/main/java/cn/rongcloud/aochuang/ui/fragment/ConversationFragmentEx.java" />
         <option value="$PROJECT_DIR$/IMKit/src/main/java/io/rong/imkit/RectPicMessage.java" />
         <option value="$PROJECT_DIR$/seal/src/main/java/cn/rongcloud/aochuang/SealAppContext.java" />
+        <option value="$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ext_extension_bar.xml" />
+        <option value="$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_voice_toggle_selector.xml" />
+        <option value="$PROJECT_DIR$/IMKit/src/main/.project" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="582" />
-    <option name="y" value="63" />
+    <option name="x" value="464" />
+    <option name="y" value="72" />
     <option name="width" value="1920" />
     <option name="height" value="873" />
   </component>
@@ -9534,130 +8811,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sealtalk-android-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sealtalk-android-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="seal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aochuang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sealtalk-android-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sealtalk-android-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="seal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aochuang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sealtalk-android-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sealtalk-android-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="seal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aochuang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fragment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sealtalk-android-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sealtalk-android-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="seal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -9702,6 +8855,92 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sealtalk-android-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sealtalk-android-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IMKit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sealtalk-android-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sealtalk-android-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IMKit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sealtalk-android-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sealtalk-android-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IMKit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -10130,6 +9369,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="044fbf08-d769-4603-ab45-f55eda09df11" name="Default" comment="" />
+      <changelist id="81997f6d-1dda-4781-8c68-cff05986d42a" name="Revert: 提交押注软键盘 (3fe559a0703e262084c1e3f16413ca3903d3c069)" comment="" />
       <created>1506674106621</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -10296,11 +9536,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508901386719</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="更换为最新的lib库">
+      <created>1508901752026</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1508901752026</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="582" y="63" width="1920" height="873" extended-state="0" />
+    <frame x="464" y="72" width="1920" height="873" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939634" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -10311,15 +9558,15 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41426784" sideWeight="0.30617678" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16853933" sideWeight="0.7917998" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2559301" sideWeight="0.7917998" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23515151" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24327785" sideWeight="0.49834985" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17857143" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29588014" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20588236" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46608946" sideWeight="0.6938232" order="12" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15282215" sideWeight="0.66827697" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28487754" sideWeight="0.66827697" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32833958" sideWeight="0.5350455" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2587694" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.157082" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -10343,7 +9590,7 @@
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14536741" sideWeight="0.33172303" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41426784" sideWeight="0.30617678" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19101124" sideWeight="0.7917998" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2559301" sideWeight="0.7917998" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.157082" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -10358,14 +9605,14 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23515151" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24327785" sideWeight="0.49834985" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17857143" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29588014" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24365482" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20588236" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Smart" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32865497" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46608946" sideWeight="0.6938232" order="12" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18157615" sideWeight="0.66827697" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32833958" sideWeight="0.5350455" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28487754" sideWeight="0.66827697" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32833958" sideWeight="0.5350455" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2587694" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1799787" sideWeight="0.2673611" order="5" side_tool="true" content_ui="tabs" />
@@ -10401,6 +9648,7 @@
     <MESSAGE value="代码同步" />
     <MESSAGE value="更换为最新的lib库" />
     <option name="LAST_COMMIT_MESSAGE" value="更换为最新的lib库" />
+    <option name="PRESELECT_EXISTING_CHANGELIST" value="false" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -10422,164 +9670,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/RedPacket/libs/jrmfry-1.4.2.jar!/com/jrmf360/rylib/common/util/LogUtil.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/IMKit/src/main/libs/Rong_IMKit.jar!/io/rong/imkit/widget/adapter/MessageListAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="517" column="81" selection-start-line="517" selection-start-column="81" selection-end-line="517" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/IMKit/src/main/libs/Rong_IMKit.jar!/io/rong/imkit/RongContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="338" column="27" selection-start-line="338" selection-start-column="27" selection-end-line="338" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/IMLib/libs/Rong_IMLib.jar!/io/rong/imlib/model/Conversation.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="297" column="23" selection-start-line="297" selection-start-column="23" selection-end-line="297" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/IMLib/libs/Rong_IMLib.jar!/io/rong/message/ImageMessage.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/IMLib/libs/Rong_IMLib.jar!/io/rong/imlib/model/Message.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="156" column="18" selection-start-line="156" selection-start-column="18" selection-end-line="156" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.android/build-cache/3ab0d149f3eb05f7c757f93b1e1c91e7f064e250/output/jars/classes.jar!/android/support/multidex/MultiDexApplication.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-25/android/content/res/AssetManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5295">
-          <caret line="381" column="7" selection-start-line="381" selection-start-column="7" selection-end-line="381" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seal/src/main/res/drawable-xxhdpi/app_icon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seal/src/main/assets/app_icon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seal/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" column="37" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IMKit/src/main/res/layout/rc_camera.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_group_information_notification_message.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_message.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="88" column="8" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_image_message.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_group_conversation.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seal/src/main/java/cn/rongcloud/aochuang/ui/manager/StakeManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-541">
-          <caret line="74" column="19" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_information_notification_message.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/IMLib/libs/Rong_IMLib.jar!/io/rong/imlib/model/MentionedInfo.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/IMKit/src/main/libs/Rong_IMKit.jar!/io/rong/imkit/mention/RongMentionManager.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2985">
@@ -10770,42 +9860,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IMKit/src/main/java/io/rong/imkit/CustomizeMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="22" column="29" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seal/src/main/java/cn/rongcloud/aochuang/ui/fragment/ConversationFragmentEx.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1327#1399#1" expanded="true" />
-            <element signature="e#1722#1751#0" expanded="true" />
-            <element signature="e#1819#1894#1" expanded="true" />
-            <element signature="e#1846#1859#0" expanded="true" />
-            <element signature="e#1956#1969#0" expanded="true" />
-            <element signature="e#2064#2111#1" expanded="true" />
-            <element signature="e#2081#2089#0" expanded="true" />
-            <element signature="e#2081#2110#0" expanded="true" />
-            <element signature="e#2124#2151#0" expanded="true" />
-            <element signature="e#2124#2151#0" expanded="true" />
-            <element signature="e#2124#2151#0" expanded="true" />
-            <element signature="e#2458#2523#1" expanded="true" />
-            <element signature="e#2536#2625#1" expanded="true" />
-            <element signature="e#2569#2582#0" expanded="true" />
-            <element signature="e#2584#2605#0" expanded="true" />
-            <element signature="e#2638#2658#0" expanded="true" />
-            <element signature="e#2680#2709#0" expanded="true" />
-            <element signature="e#2711#2740#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/IMLib/libs/Rong_IMLib.jar!/io/rong/imlib/model/MessageContent.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -10823,33 +9877,6 @@
             <element signature="e#919#920#0" expanded="true" />
             <element signature="e#973#974#0" expanded="true" />
             <element signature="e#1028#1029#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IMKit/src/main/java/io/rong/imkit/RectPicMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IMKit/src/main/java/io/rong/imkit/CustomizeMessageItemProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1073#1104#0" expanded="true" />
-            <element signature="e#1377#1430#0" expanded="true" />
-            <element signature="e#1400#1429#0" expanded="true" />
-            <element signature="e#1377#1430#0" expanded="true" />
-            <element signature="e#1898#2000#1" expanded="true" />
-            <element signature="e#2009#2046#1" expanded="true" />
-            <element signature="e#2072#2111#0" expanded="true" />
-            <element signature="e#2121#2140#0" expanded="true" />
-            <element signature="e#2121#2140#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -10984,13 +10011,301 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/IMKit/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+        <state relative-caret-position="330">
+          <caret line="46" column="49" selection-start-line="46" selection-start-column="49" selection-end-line="46" selection-end-column="49" />
           <folding />
         </state>
       </provider>
       <provider editor-type-id="android-manifest">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IMKit/src/main/java/io/rong/imkit/RectPicMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IMKit/src/main/java/io/rong/imkit/CustomizeMessageItemProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1073#1104#0" expanded="true" />
+            <element signature="e#1377#1430#0" expanded="true" />
+            <element signature="e#1400#1429#0" expanded="true" />
+            <element signature="e#1377#1430#0" expanded="true" />
+            <element signature="e#1898#2000#1" expanded="true" />
+            <element signature="e#2009#2046#1" expanded="true" />
+            <element signature="e#2072#2111#0" expanded="true" />
+            <element signature="e#2121#2140#0" expanded="true" />
+            <element signature="e#2121#2140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/IMLib/libs/Rong_IMLib.jar!/io/rong/imlib/MessageTag.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IMKit/src/main/java/io/rong/imkit/CustomizeMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="44" column="49" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seal/src/main/java/cn/rongcloud/aochuang/ui/fragment/ConversationFragmentEx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1327#1399#1" expanded="true" />
+            <element signature="e#1722#1751#0" expanded="true" />
+            <element signature="e#1819#1894#1" expanded="true" />
+            <element signature="e#1846#1859#0" expanded="true" />
+            <element signature="e#1956#1969#0" expanded="true" />
+            <element signature="e#2064#2111#1" expanded="true" />
+            <element signature="e#2081#2089#0" expanded="true" />
+            <element signature="e#2081#2110#0" expanded="true" />
+            <element signature="e#2124#2151#0" expanded="true" />
+            <element signature="e#2124#2151#0" expanded="true" />
+            <element signature="e#2124#2151#0" expanded="true" />
+            <element signature="e#2458#2523#1" expanded="true" />
+            <element signature="e#2536#2625#1" expanded="true" />
+            <element signature="e#2569#2582#0" expanded="true" />
+            <element signature="e#2584#2605#0" expanded="true" />
+            <element signature="e#2638#2658#0" expanded="true" />
+            <element signature="e#2680#2709#0" expanded="true" />
+            <element signature="e#2711#2740#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IMKit/src/main/res/layout/rc_fr_conversationlist.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-560">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IMKit/src/main/res/layout/rc_fr_messagelist.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-30">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seal/src/main/java/cn/rongcloud/aochuang/ui/manager/StakeManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="79" column="88" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="27" />
+          <folding>
+            <element signature="e#986#1476#0" expanded="true" />
+            <element signature="e#1126#1148#1" expanded="true" />
+            <element signature="e#1137#1147#0" expanded="true" />
+            <element signature="e#1182#1193#0" expanded="true" />
+            <element signature="e#1244#1286#1" expanded="true" />
+            <element signature="e#1255#1274#0" expanded="true" />
+            <element signature="e#1308#1319#0" expanded="true" />
+            <element signature="e#1330#1354#0" expanded="true" />
+            <element signature="e#1330#1354#0" expanded="true" />
+            <element signature="e#1378#1427#0" expanded="true" />
+            <element signature="e#1396#1426#0" expanded="true" />
+            <element signature="e#1396#1426#0" expanded="true" />
+            <element signature="e#1396#1426#0" expanded="true" />
+            <element signature="e#1396#1426#0" expanded="true" />
+            <element signature="e#1378#1427#0" expanded="true" />
+            <element signature="e#1475#1476#0" expanded="true" />
+            <element signature="e#1529#2402#0" expanded="true" />
+            <element signature="e#1626#1659#1" expanded="true" />
+            <element signature="e#1638#1658#0" expanded="true" />
+            <element signature="e#1648#1658#0" expanded="true" />
+            <element signature="e#1672#1699#1" expanded="true" />
+            <element signature="e#1686#1698#0" expanded="true" />
+            <element signature="e#1754#1796#1" expanded="true" />
+            <element signature="e#1765#1784#0" expanded="true" />
+            <element signature="e#1870#1897#1" expanded="true" />
+            <element signature="e#1922#1944#0" expanded="true" />
+            <element signature="e#1922#1944#0" expanded="true" />
+            <element signature="e#1984#2023#0" expanded="true" />
+            <element signature="e#1990#2002#0" expanded="true" />
+            <element signature="e#1984#2023#0" expanded="true" />
+            <element signature="e#1984#2023#0" expanded="true" />
+            <element signature="e#1984#2023#0" expanded="true" />
+            <element signature="e#2041#2061#0" expanded="true" />
+            <element signature="e#2041#2061#0" expanded="true" />
+            <element signature="e#2125#2167#1" expanded="true" />
+            <element signature="e#2136#2155#0" expanded="true" />
+            <element signature="e#2241#2268#1" expanded="true" />
+            <element signature="e#2293#2315#0" expanded="true" />
+            <element signature="e#2293#2315#0" expanded="true" />
+            <element signature="e#2351#2371#0" expanded="true" />
+            <element signature="e#2351#2371#0" expanded="true" />
+            <element signature="e#2401#2402#0" expanded="true" />
+            <element signature="e#2525#2547#0" expanded="true" />
+            <element signature="e#2718#2787#0" expanded="true" />
+            <element signature="e#2825#2908#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IMKit/src/main/res/layout/user_stake_edittext.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IMKit/src/main/res/layout/rc_fr_conversation.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/IMKit/src/main/libs/Rong_IMKit.jar!/io/rong/imkit/RongExtension.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2025">
+          <caret line="79" column="16" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ext_menu_container.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ext_input_edit_text.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ext_plugin_item.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IMKit/src/main/res/layout/user_stake_softinput.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IMKit/src/main/res/layout/rc_ext_extension_bar.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IMKit/src/main/res/drawable/user_alter_voice_switch_hover.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IMKit/src/main/res/drawable/user_alter_voice_switch.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IMKit/src/main/res/drawable/user_backspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IMKit/src/main/res/drawable/user_stake_softinput_btn.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IMKit/src/main/res/drawable/user_stake_softinput_btn_fang.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IMKit/src/main/.project">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="3" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IMKit/src/main/res/drawable/rc_voice_toggle_selector.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
