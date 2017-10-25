@@ -10,6 +10,7 @@ import android.util.Log;
 import android.view.View;
 
 import com.alibaba.fastjson.JSONException;
+import com.jrmf360.rylib.common.util.ToastUtil;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -31,8 +32,11 @@ import cn.rongcloud.aochuang.ui.activity.LoginActivity;
 import cn.rongcloud.aochuang.ui.activity.MainActivity;
 import cn.rongcloud.aochuang.ui.activity.NewFriendListActivity;
 import cn.rongcloud.aochuang.ui.activity.UserDetailActivity;
+import cn.rongcloud.aochuang.utils.LogUtils;
+import io.rong.imkit.CustomizeMessageItemProvider;
 import io.rong.imkit.DefaultExtensionModule;
 import io.rong.imkit.IExtensionModule;
+import io.rong.imkit.RectPicMessage;
 import io.rong.imkit.RongExtensionManager;
 import io.rong.imkit.RongIM;
 import io.rong.imkit.model.GroupNotificationMessageData;
@@ -123,6 +127,8 @@ public class SealAppContext implements RongIM.ConversationListBehaviorListener,
      * init 后就能设置的监听
      */
     private void initListener() {
+        RongIM.registerMessageType(RectPicMessage.class);
+        RongIM.getInstance().registerMessageTemplate(new CustomizeMessageItemProvider());
         RongIM.setConversationBehaviorListener(this);//设置会话界面操作的监听器。
         RongIM.setConversationListBehaviorListener(this);
         RongIM.setConnectionStatusListener(this);
@@ -417,9 +423,12 @@ public class SealAppContext implements RongIM.ConversationListBehaviorListener,
          * demo 代码  开发者需替换成自己的代码。
          */
         if (message.getContent() instanceof ImageMessage) {
+            LogUtils.d("message 点击了图片类型的消息" + message.getExtra());
             /*Intent intent = new Intent(context, PhotoActivity.class);
             intent.putExtra("message", message);
             context.startActivity(intent);*/
+            ToastUtil.showToast(context, "点击了图片，你要跳转到哪？");
+            return true;
         }
 
         return false;

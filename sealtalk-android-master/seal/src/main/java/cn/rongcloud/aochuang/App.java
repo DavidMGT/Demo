@@ -17,10 +17,6 @@ import com.facebook.stetho.inspector.protocol.ChromeDevtoolsDomain;
 import java.util.ArrayList;
 import java.util.List;
 
-import cn.rongcloud.contactcard.ContactCardExtensionModule;
-import cn.rongcloud.contactcard.IContactCardClickListener;
-import cn.rongcloud.contactcard.IContactCardInfoProvider;
-import cn.rongcloud.contactcard.message.ContactMessage;
 import cn.rongcloud.aochuang.db.Friend;
 import cn.rongcloud.aochuang.message.TestMessage;
 import cn.rongcloud.aochuang.message.provider.ContactNotificationMessageProvider;
@@ -33,6 +29,10 @@ import cn.rongcloud.aochuang.stetho.RongDatabaseFilesProvider;
 import cn.rongcloud.aochuang.stetho.RongDbFilesDumperPlugin;
 import cn.rongcloud.aochuang.ui.activity.UserDetailActivity;
 import cn.rongcloud.aochuang.utils.SharedPreferencesContext;
+import cn.rongcloud.contactcard.ContactCardExtensionModule;
+import cn.rongcloud.contactcard.IContactCardClickListener;
+import cn.rongcloud.contactcard.IContactCardInfoProvider;
+import cn.rongcloud.contactcard.message.ContactMessage;
 import io.rong.imageloader.core.DisplayImageOptions;
 import io.rong.imageloader.core.display.FadeInBitmapDisplayer;
 import io.rong.imkit.RongExtensionManager;
@@ -48,10 +48,20 @@ import io.rong.recognizer.RecognizeExtensionModule;
 public class App extends MultiDexApplication {
 
     private static DisplayImageOptions options;
+    private static App instance;
+
+    public static App getContext() {
+        synchronized (App.class) {
+            if (instance == null) {
+                instance = new App();
+            }
+            return instance;
+        }
+    }
 
     @Override
     public void onCreate() {
-
+        instance = this;
         super.onCreate();
         Stetho.initialize(new Stetho.Initializer(this) {
             @Override
