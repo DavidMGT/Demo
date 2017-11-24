@@ -1,19 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/rc_normal_bg"
-    android:orientation="vertical">
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
 
     <FrameLayout
-        android:id="@+id/rong_content"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-
-    <ImageView
-        android:id="@+id/img"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/de_bg"
-        android:visibility="gone" />
-</FrameLayout>
+        android:background="@color/rc_normal_bg"
+        android:orientation="vertical">
+
+
+        <FrameLayout
+            android:id="@+id/rong_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+        <!--  <WebView
+              android:id="@+id/webView"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"></WebView>-->
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/de_bg"
+            android:visibility="gone" />
+    </FrameLayout>
+</layout>

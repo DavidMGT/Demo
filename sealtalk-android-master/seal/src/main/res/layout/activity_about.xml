@@ -182,10 +182,10 @@
 
 
     <RelativeLayout
-        android:visibility="gone"
         android:id="@+id/close_debug"
         android:layout_width="match_parent"
-        android:layout_height="47.5dp">
+        android:layout_height="47.5dp"
+        android:visibility="gone">
 
         <TextView
             android:layout_width="wrap_content"
@@ -199,10 +199,10 @@
     </RelativeLayout>
 
     <RelativeLayout
-        android:visibility="gone"
         android:id="@+id/set_online_status"
         android:layout_width="match_parent"
-        android:layout_height="47.5dp">
+        android:layout_height="47.5dp"
+        android:visibility="gone">
 
         <TextView
             android:layout_width="wrap_content"

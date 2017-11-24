@@ -10,7 +10,6 @@ import android.util.Log;
 import android.view.View;
 
 import com.alibaba.fastjson.JSONException;
-import com.jrmf360.rylib.common.util.ToastUtil;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -31,6 +30,7 @@ import cn.rongcloud.aochuang.server.utils.json.JsonMananger;
 import cn.rongcloud.aochuang.ui.activity.LoginActivity;
 import cn.rongcloud.aochuang.ui.activity.MainActivity;
 import cn.rongcloud.aochuang.ui.activity.NewFriendListActivity;
+import cn.rongcloud.aochuang.ui.activity.RongWebActivity;
 import cn.rongcloud.aochuang.ui.activity.UserDetailActivity;
 import cn.rongcloud.aochuang.utils.LogUtils;
 import io.rong.imkit.CustomizeMessageItemProvider;
@@ -427,7 +427,14 @@ public class SealAppContext implements RongIM.ConversationListBehaviorListener,
             /*Intent intent = new Intent(context, PhotoActivity.class);
             intent.putExtra("message", message);
             context.startActivity(intent);*/
-            ToastUtil.showToast(context, "点击了图片，你要跳转到哪？");
+            return true;
+        }
+        if (message.getContent() instanceof RectPicMessage) {
+            LogUtils.d("message 点击了图片类型的消息" + message.getExtra());
+            Intent intent = new Intent(context, RongWebActivity.class);
+            intent.putExtra("message", message);
+            context.startActivity(intent);
+            // ToastUtil.showToast(context, "跳转到投注结果页面？");
             return true;
         }
 

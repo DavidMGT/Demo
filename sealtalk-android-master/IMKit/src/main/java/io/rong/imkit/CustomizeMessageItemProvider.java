@@ -6,10 +6,11 @@ import android.text.SpannableString;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 import io.rong.imkit.model.ProviderTag;
 import io.rong.imkit.model.UIMessage;
+import io.rong.imkit.widget.AsyncImageView;
+import io.rong.imkit.widget.RCMessageFrameLayout;
 import io.rong.imkit.widget.provider.IContainerItemProvider;
 import io.rong.imlib.model.Message;
 
@@ -23,19 +24,20 @@ import io.rong.imlib.model.Message;
 @ProviderTag(messageContent = RectPicMessage.class)
 public class CustomizeMessageItemProvider extends IContainerItemProvider.MessageProvider<RectPicMessage> {
     class ViewHolder {
-        TextView message;
+        //  TextView message;
+        AsyncImageView imageView;
+        RCMessageFrameLayout fl_root;
     }
 
     @Override
     public void bindView(View view, int i, RectPicMessage customizeMessage, UIMessage uiMessage) {
         ViewHolder holder = (ViewHolder) view.getTag();
-
         if (uiMessage.getMessageDirection() == Message.MessageDirection.SEND) {//消息方向，自己发送的
-            holder.message.setBackgroundResource(io.rong.imkit.R.drawable.rc_ic_bubble_right);
+            holder.fl_root.setBackgroundResource(io.rong.imkit.R.drawable.rc_ic_bubble_right);
         } else {
-            holder.message.setBackgroundResource(io.rong.imkit.R.drawable.rc_ic_bubble_left);
+            holder.fl_root.setBackgroundResource(io.rong.imkit.R.drawable.rc_ic_bubble_left);
         }
-        holder.message.setText(customizeMessage.getContent());
+        // holder.message.setText(customizeMessage.getContent());
         //  AndroidEmoji.ensure((Spannable) holder.message.getText());//显示消息中的 Emoji 表情。
     }
 
@@ -53,7 +55,9 @@ public class CustomizeMessageItemProvider extends IContainerItemProvider.Message
     public View newView(Context context, ViewGroup viewGroup) {
         View view = LayoutInflater.from(context).inflate(io.rong.imkit.R.layout.rc_item_custom_message, null);
         ViewHolder holder = new ViewHolder();
-        holder.message = (TextView) view.findViewById(R.id.text);
+        //    holder.message = (TextView) view.findViewById(R.id.text);
+        holder.imageView = (AsyncImageView) view.findViewById(R.id.img_defalut);
+        holder.fl_root = (RCMessageFrameLayout) view.findViewById(R.id.fl_root);
         view.setTag(holder);
         return view;
     }

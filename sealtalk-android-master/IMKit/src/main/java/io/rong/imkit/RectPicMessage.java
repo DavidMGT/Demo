@@ -18,7 +18,7 @@ import io.rong.imlib.model.MessageContent;
  *
  * *  *   * * *      *****    ******           No Bugs okay?
  *  * *   *   *          *  *  *       Created by David MC on 2017/10/25.  
- *  * *   * * *            * *
+ *  * *   * * *            * * 自定义的一种消息类型。展示的是投注结果
 
  *************************************/
 

@@ -23,7 +23,7 @@ import io.rong.imkit.plugin.IPluginModule;
 public class ResultPlugin implements IPluginModule {
     @Override
     public Drawable obtainDrawable(Context context) {
-        return ContextCompat.getDrawable(context, R.drawable.app_icon);
+        return ContextCompat.getDrawable(context, R.drawable.tab_found);
     }
 
     @Override

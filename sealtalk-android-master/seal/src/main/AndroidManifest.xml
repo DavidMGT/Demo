@@ -53,9 +53,9 @@
         android:name="cn.rongcloud.aochuang.App"
         android:allowBackup="true"
         android:icon="@drawable/seal_app_logo"
-        tools:replace="android:icon, android:theme"
         android:label="@string/app_name"
-        android:theme="@style/MyTheme">
+        android:theme="@style/MyTheme"
+        tools:replace="android:icon, android:theme">
 
         <!--登录页面-->
         <activity
@@ -66,9 +66,9 @@
         <!--主页面-->
         <activity
             android:name="cn.rongcloud.aochuang.ui.activity.MainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
-        android:configChanges="orientation|keyboardHidden|screenSize"
             android:windowSoftInputMode="stateHidden|adjustPan">
 
             <intent-filter>
@@ -261,26 +261,31 @@
                     android:scheme="rong" />
             </intent-filter>
         </activity>
-        <activity android:name="cn.rongcloud.aochuang.ui.activity.SealSearchActivity"
+        <activity
+            android:name="cn.rongcloud.aochuang.ui.activity.SealSearchActivity"
             android:configChanges="orientation|keyboardHidden|locale"
             android:screenOrientation="portrait"
-            android:windowSoftInputMode="stateVisible|adjustPan"/>
-        <activity android:name="cn.rongcloud.aochuang.ui.activity.SealSearchMoreFriendsActivity"
+            android:windowSoftInputMode="stateVisible|adjustPan" />
+        <activity
+            android:name="cn.rongcloud.aochuang.ui.activity.SealSearchMoreFriendsActivity"
             android:configChanges="orientation|keyboardHidden|locale"
             android:screenOrientation="portrait"
-            android:windowSoftInputMode="stateHidden|adjustPan"/>
-        <activity android:name="cn.rongcloud.aochuang.ui.activity.SealSearchMoreGroupActivity"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="cn.rongcloud.aochuang.ui.activity.SealSearchMoreGroupActivity"
             android:configChanges="orientation|keyboardHidden|locale"
             android:screenOrientation="portrait"
-            android:windowSoftInputMode="stateHidden|adjustPan"/>
-        <activity android:name="cn.rongcloud.aochuang.ui.activity.SealSearchMoreChattingRecordsActivity"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="cn.rongcloud.aochuang.ui.activity.SealSearchMoreChattingRecordsActivity"
             android:configChanges="orientation|keyboardHidden|locale"
             android:screenOrientation="portrait"
-            android:windowSoftInputMode="stateHidden|adjustPan"/>
-        <activity android:name="cn.rongcloud.aochuang.ui.activity.SealSearchChattingDetailActivity"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="cn.rongcloud.aochuang.ui.activity.SealSearchChattingDetailActivity"
             android:configChanges="orientation|keyboardHidden|locale"
             android:screenOrientation="portrait"
-            android:windowSoftInputMode="stateHidden|adjustPan"/>
+            android:windowSoftInputMode="stateHidden|adjustPan" />
         <activity
             android:name="cn.rongcloud.aochuang.ui.activity.UpdateNameActivity"
             android:screenOrientation="portrait" />
@@ -308,8 +313,10 @@
             android:screenOrientation="portrait" />
 
         <service android:name="cn.rongcloud.aochuang.server.UpdateService" />
-        <activity android:name="cn.rongcloud.aochuang.ui.activity.UserDetailActivity"
-            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name="cn.rongcloud.aochuang.ui.activity.UserDetailActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name="cn.rongcloud.aochuang.ui.activity.SharedReceiverActivity"
             android:screenOrientation="portrait">
@@ -431,7 +438,7 @@
 
 
         <!-- 第三方相关 :接收Push消息（注册、Push消息、Push连接状态）广播 -->
-        <receiver android:name="io.rong.push.platform.HMSReceiver" >
+        <receiver android:name="io.rong.push.platform.HMSReceiver">
             <intent-filter>
 
                 <!-- 必须,用于接收token -->
@@ -444,7 +451,7 @@
                 <action android:name="com.huawei.intent.action.PUSH_STATE" />
             </intent-filter>
         </receiver>
-        <receiver android:name="com.huawei.hms.support.api.push.PushEventReceiver" >
+        <receiver android:name="com.huawei.hms.support.api.push.PushEventReceiver">
             <intent-filter>
 
                 <!-- 接收通道发来的通知栏消息，兼容老版本Push -->

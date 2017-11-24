@@ -15,6 +15,7 @@ import cn.rongcloud.aochuang.R;
 public class RongWebActivity extends BaseActivity {
 
     private WebView mWebView = null;
+    private String url = "http://192.227.228.215:9999/api/v2/table/2501?s";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,9 +35,9 @@ public class RongWebActivity extends BaseActivity {
 
 
         MyWebViewClient mMyWebViewClient = new MyWebViewClient();
-        mMyWebViewClient.onPageFinished(mWebView, "http://rongcloud.cn/");
-        mMyWebViewClient.shouldOverrideUrlLoading(mWebView, "http://rongcloud.cn/");
-        mMyWebViewClient.onPageFinished(mWebView, "http://rongcloud.cn/");
+        mMyWebViewClient.onPageFinished(mWebView, url);
+        mMyWebViewClient.shouldOverrideUrlLoading(mWebView, url);
+        mMyWebViewClient.onPageFinished(mWebView, url);
         mWebView.setWebViewClient(mMyWebViewClient);
     }
 

@@ -48,7 +48,7 @@
 
     <io.rong.imkit.widget.ProviderContainerView
         android:id="@+id/rc_content"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_toLeftOf="@id/rc_item2"

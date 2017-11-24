@@ -1,5 +1,6 @@
 package cn.rongcloud.aochuang.ui.activity;
 
+import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.Intent;
@@ -27,6 +28,7 @@ import java.util.Locale;
 import cn.rongcloud.aochuang.R;
 import cn.rongcloud.aochuang.SealAppContext;
 import cn.rongcloud.aochuang.SealUserInfoManager;
+import cn.rongcloud.aochuang.databinding.ConversationBinding;
 import cn.rongcloud.aochuang.db.GroupMember;
 import cn.rongcloud.aochuang.server.utils.NLog;
 import cn.rongcloud.aochuang.server.utils.NToast;
@@ -55,6 +57,7 @@ import io.rong.message.VoiceMessage;
  * 2，加载会话页面
  * 3，push 和 通知 判断
  */
+@SuppressLint("SetJavaScriptEnabled")
 public class ConversationActivity extends BaseActivity implements View.OnClickListener {
 
     private String TAG = ConversationActivity.class.getSimpleName();
@@ -89,15 +92,19 @@ public class ConversationActivity extends BaseActivity implements View.OnClickLi
     public static final int SET_TARGET_ID_TITLE = 0;
 
     private Button mRightButton;
+    ConversationBinding binding;
+    String videourl = "http://192.227.228.215:9999/api/v2/table/2501?s";
 
     @Override
     @TargetApi(23)
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        View rootview = getLayoutInflater().inflate(R.layout.conversation, null, false);
         setContentView(R.layout.conversation);
+        //  binding = DataBindingUtil.bind(rootview);
+        // initWebView();
         sp = getSharedPreferences("config", MODE_PRIVATE);
         mDialog = new LoadingDialog(this);
-
         mRightButton = getHeadRightButton();
 
         Intent intent = getIntent();
@@ -193,6 +200,22 @@ public class ConversationActivity extends BaseActivity implements View.OnClickLi
             }
         });
         //CallKit end 2
+    }
+
+    private void initWebView() {
+      /*  binding.webView.getSettings().setJavaScriptEnabled(true);
+        binding.webView.getSettings().setUseWideViewPort(true);
+        binding.webView.getSettings().setLoadWithOverviewMode(true);
+        binding.webView.getSettings().setBuiltInZoomControls(true);
+        binding.webView.getSettings().setSupportZoom(true);
+        //自适应屏幕
+        binding.webView.getSettings().setLayoutAlgorithm(WebSettings.LayoutAlgorithm.SINGLE_COLUMN);
+        binding.webView.getSettings().setLoadWithOverviewMode(true);
+        MyWebViewClient mMyWebViewClient = new MyWebViewClient();
+        mMyWebViewClient.onPageFinished(binding.webView, videourl);
+        mMyWebViewClient.shouldOverrideUrlLoading(binding.webView, videourl);
+        mMyWebViewClient.onPageFinished(binding.webView, videourl);
+        binding.webView.setWebViewClient(mMyWebViewClient);*/
     }
 
     /**
@@ -635,4 +658,36 @@ public class ConversationActivity extends BaseActivity implements View.OnClickLi
         ToastUtil.showToast(this, "等待实现......查看当前投注情况的功能");
         NLog.d("现在点击了右边的群主按钮");
     }
+
+   /* class MyWebViewClient extends WebViewClient {
+
+        ProgressDialog progressDialog;
+
+        @Override
+        public void onPageStarted(WebView view, String url, Bitmap favicon) {//网页页面开始加载的时候
+            if (progressDialog == null) {
+                progressDialog = new ProgressDialog(ConversationActivity.this);
+                progressDialog.setMessage("Please wait...");
+                progressDialog.show();
+                binding.webView.setEnabled(false);// 当加载网页的时候将网页进行隐藏
+            }
+            super.onPageStarted(view, url, favicon);
+        }
+
+        @Override
+        public void onPageFinished(WebView view, String url) {//网页加载结束的时候
+            //super.onPageFinished(view, url);
+            if (progressDialog != null && progressDialog.isShowing()) {
+                progressDialog.dismiss();
+                progressDialog = null;
+                binding.webView.setEnabled(true);
+            }
+        }
+
+        @Override
+        public boolean shouldOverrideUrlLoading(WebView view, String url) { //网页加载时的连接的网址
+            view.loadUrl(url);
+            return false;
+        }
+    }*/
 }
