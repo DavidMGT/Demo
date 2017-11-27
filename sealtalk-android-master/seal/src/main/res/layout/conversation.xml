@@ -4,20 +4,20 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/rc_normal_bg"
+        android:background="@color/rc_message_user_name"
         android:orientation="vertical">
 
+        <FrameLayout
+            android:id="@+id/webview_content"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
 
         <FrameLayout
             android:id="@+id/rong_content"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:layout_marginTop="100dp" />
 
-
-        <!--  <WebView
-              android:id="@+id/webView"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent"></WebView>-->
 
         <ImageView
             android:id="@+id/img"

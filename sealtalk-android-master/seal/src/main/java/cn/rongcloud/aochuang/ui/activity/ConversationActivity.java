@@ -5,6 +5,7 @@ import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.databinding.DataBindingUtil;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
@@ -32,6 +33,7 @@ import cn.rongcloud.aochuang.databinding.ConversationBinding;
 import cn.rongcloud.aochuang.db.GroupMember;
 import cn.rongcloud.aochuang.server.utils.NLog;
 import cn.rongcloud.aochuang.server.utils.NToast;
+import cn.rongcloud.aochuang.ui.fragment.AppWebFragment;
 import cn.rongcloud.aochuang.ui.fragment.ConversationFragmentEx;
 import cn.rongcloud.aochuang.ui.widget.LoadingDialog;
 import io.rong.callkit.RongCallKit;
@@ -101,8 +103,11 @@ public class ConversationActivity extends BaseActivity implements View.OnClickLi
         super.onCreate(savedInstanceState);
         View rootview = getLayoutInflater().inflate(R.layout.conversation, null, false);
         setContentView(R.layout.conversation);
-        //  binding = DataBindingUtil.bind(rootview);
-        // initWebView();
+        binding = DataBindingUtil.bind(rootview);
+        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+        //xxx 为你要加载的 id
+        transaction.add(R.id.webview_content, new AppWebFragment());
+        transaction.commitAllowingStateLoss();
         sp = getSharedPreferences("config", MODE_PRIVATE);
         mDialog = new LoadingDialog(this);
         mRightButton = getHeadRightButton();
@@ -202,8 +207,8 @@ public class ConversationActivity extends BaseActivity implements View.OnClickLi
         //CallKit end 2
     }
 
-    private void initWebView() {
-      /*  binding.webView.getSettings().setJavaScriptEnabled(true);
+  /*  private void initWebView() {
+        binding.webView.getSettings().setJavaScriptEnabled(true);
         binding.webView.getSettings().setUseWideViewPort(true);
         binding.webView.getSettings().setLoadWithOverviewMode(true);
         binding.webView.getSettings().setBuiltInZoomControls(true);
@@ -215,8 +220,9 @@ public class ConversationActivity extends BaseActivity implements View.OnClickLi
         mMyWebViewClient.onPageFinished(binding.webView, videourl);
         mMyWebViewClient.shouldOverrideUrlLoading(binding.webView, videourl);
         mMyWebViewClient.onPageFinished(binding.webView, videourl);
-        binding.webView.setWebViewClient(mMyWebViewClient);*/
+        binding.webView.setWebViewClient(mMyWebViewClient);
     }
+*/
 
     /**
      * 判断是否是 Push 消息，判断是否需要做 connect 操作
@@ -659,35 +665,4 @@ public class ConversationActivity extends BaseActivity implements View.OnClickLi
         NLog.d("现在点击了右边的群主按钮");
     }
 
-   /* class MyWebViewClient extends WebViewClient {
-
-        ProgressDialog progressDialog;
-
-        @Override
-        public void onPageStarted(WebView view, String url, Bitmap favicon) {//网页页面开始加载的时候
-            if (progressDialog == null) {
-                progressDialog = new ProgressDialog(ConversationActivity.this);
-                progressDialog.setMessage("Please wait...");
-                progressDialog.show();
-                binding.webView.setEnabled(false);// 当加载网页的时候将网页进行隐藏
-            }
-            super.onPageStarted(view, url, favicon);
-        }
-
-        @Override
-        public void onPageFinished(WebView view, String url) {//网页加载结束的时候
-            //super.onPageFinished(view, url);
-            if (progressDialog != null && progressDialog.isShowing()) {
-                progressDialog.dismiss();
-                progressDialog = null;
-                binding.webView.setEnabled(true);
-            }
-        }
-
-        @Override
-        public boolean shouldOverrideUrlLoading(WebView view, String url) { //网页加载时的连接的网址
-            view.loadUrl(url);
-            return false;
-        }
-    }*/
 }
