@@ -240,12 +240,18 @@ public class ConversationActivity extends BaseActivity implements View.OnClickLi
     private void initVideoSettings() {
         binding.videoView.requestFocus();
         binding.videoView.setVideoChroma(MediaPlayer.VIDEOCHROMA_RGB565);
+        binding.videoView.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+            @Override
+            public void onCompletion(MediaPlayer mp) {
+
+            }
+        });
     }
 
     @Override
-    protected void onResume() {
-        super.onResume();
-
+    public void onBackPressed() {
+        super.onBackPressed();
+        finish();
     }
 
     /**

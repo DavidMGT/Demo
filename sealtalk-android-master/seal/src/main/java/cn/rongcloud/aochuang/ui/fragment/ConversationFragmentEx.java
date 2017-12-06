@@ -3,6 +3,7 @@ package cn.rongcloud.aochuang.ui.fragment;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,15 +16,20 @@ import cn.rongcloud.aochuang.message.plugin.ResultPlugin;
 import cn.rongcloud.aochuang.ui.activity.ReadReceiptDetailActivity;
 import cn.rongcloud.aochuang.ui.manager.StakeManager;
 import cn.rongcloud.aochuang.utils.LogUtils;
+import io.rong.common.RLog;
+import io.rong.imkit.AESCrypt;
 import io.rong.imkit.MyMessageListAdapter;
 import io.rong.imkit.RectPicMessage;
 import io.rong.imkit.RongIM;
 import io.rong.imkit.fragment.ConversationFragment;
+import io.rong.imkit.mention.RongMentionManager;
 import io.rong.imkit.plugin.IPluginModule;
 import io.rong.imkit.widget.adapter.MessageListAdapter;
 import io.rong.imlib.IRongCallback;
 import io.rong.imlib.model.Conversation;
+import io.rong.imlib.model.MentionedInfo;
 import io.rong.imlib.model.Message;
+import io.rong.message.TextMessage;
 
 /**
  * 会话 Fragment 继承自ConversationFragment
@@ -103,4 +109,18 @@ public class ConversationFragmentEx extends ConversationFragment {
         manager.onPluginToggleClick(v, extensionBoard);
     }
 
+    @Override
+    public void onSendToggleClick(View v, String text) {
+        if (!TextUtils.isEmpty(text) && !TextUtils.isEmpty(text.trim())) {
+            TextMessage textMessage = TextMessage.obtain(AESCrypt.encrypt(text));
+            MentionedInfo mentionedInfo = RongMentionManager.getInstance().onSendButtonClick();
+            if (mentionedInfo != null) {
+                textMessage.setMentionedInfo(mentionedInfo);
+            }
+            Message message = Message.obtain(getTargetId(), getConversationType(), textMessage);
+            RongIM.getInstance().sendMessage(message, (String) null, (String) null, (IRongCallback.ISendMessageCallback) null);
+        } else {
+            RLog.e("ConversationFragment", "text content must not be null");
+        }
+    }
 }
