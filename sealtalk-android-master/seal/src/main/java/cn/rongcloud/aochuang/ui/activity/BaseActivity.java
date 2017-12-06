@@ -46,9 +46,10 @@ public abstract class BaseActivity extends FragmentActivity implements OnDataLis
         super.setContentView(R.layout.layout_base);
         setVolumeControlStream(AudioManager.STREAM_MUSIC);// 使得音量键控制媒体声音
         mContext = this;
-
+        ((ViewGroup) findViewById(android.R.id.content)).setId(View.NO_ID);
         // 初始化公共头部
         mContentView = (ViewFlipper) super.findViewById(R.id.layout_container);
+        mContentView.setId(android.R.id.content);
         mHeadLayout = (LinearLayout) super.findViewById(R.id.layout_head);
         mHeadRightText = (TextView) findViewById(R.id.text_right);
         mBtnLeft = (Button) super.findViewById(R.id.btn_left);

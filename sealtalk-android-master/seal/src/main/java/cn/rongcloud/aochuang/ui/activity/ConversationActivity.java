@@ -1,20 +1,25 @@
 package cn.rongcloud.aochuang.ui.activity;
 
+import android.Manifest;
 import android.annotation.SuppressLint;
-import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.pm.ActivityInfo;
+import android.content.res.Configuration;
 import android.databinding.DataBindingUtil;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.support.v4.app.FragmentTransaction;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentPagerAdapter;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
+import android.view.ViewGroup;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 
@@ -23,8 +28,10 @@ import com.jrmf360.rylib.common.util.ToastUtil;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Locale;
+import java.util.Map;
 
 import cn.rongcloud.aochuang.R;
 import cn.rongcloud.aochuang.SealAppContext;
@@ -35,11 +42,14 @@ import cn.rongcloud.aochuang.server.utils.NLog;
 import cn.rongcloud.aochuang.server.utils.NToast;
 import cn.rongcloud.aochuang.ui.fragment.AppWebFragment;
 import cn.rongcloud.aochuang.ui.fragment.ConversationFragmentEx;
+import cn.rongcloud.aochuang.ui.fragment.RecordFragment;
 import cn.rongcloud.aochuang.ui.widget.LoadingDialog;
 import io.rong.callkit.RongCallKit;
+import io.rong.imkit.LogUtils;
 import io.rong.imkit.RongIM;
 import io.rong.imkit.fragment.UriFragment;
 import io.rong.imkit.userInfoCache.RongUserInfoManager;
+import io.rong.imkit.utilities.PermissionCheckUtil;
 import io.rong.imlib.MessageTag;
 import io.rong.imlib.RongIMClient;
 import io.rong.imlib.TypingMessage.TypingStatus;
@@ -49,6 +59,7 @@ import io.rong.imlib.model.PublicServiceProfile;
 import io.rong.imlib.model.UserInfo;
 import io.rong.message.TextMessage;
 import io.rong.message.VoiceMessage;
+import io.vov.vitamio.MediaPlayer;
 
 //CallKit start 1
 //CallKit end 1
@@ -95,19 +106,29 @@ public class ConversationActivity extends BaseActivity implements View.OnClickLi
 
     private Button mRightButton;
     ConversationBinding binding;
-    String videourl = "http://192.227.228.215:9999/api/v2/table/2501?s";
+    String videourl = "rtmp://live.hkstv.hk.lxdns.com/live/hks";
+    private final static LinkedHashMap<String, UriFragment> HOMETABS = new LinkedHashMap<>(3);
+    private String[] TAB_NAMES = new String[]{"聊天", "玩", " 记录"};
+
+    static {
+        HOMETABS.put("聊天", new ConversationFragmentEx());
+        HOMETABS.put("玩", new RecordFragment());
+        HOMETABS.put("记录", new AppWebFragment());
+    }
 
     @Override
-    @TargetApi(23)
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        View rootview = getLayoutInflater().inflate(R.layout.conversation, null, false);
-        setContentView(R.layout.conversation);
-        binding = DataBindingUtil.bind(rootview);
-        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+        // setContentView(R.layout.conversation);
+        binding = DataBindingUtil.setContentView(this, R.layout.conversation);
+        //    binding = DataBindingUtil.bind(rootview);
+        binding.swithOritation.setOnClickListener(this);
+       /* FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
         //xxx 为你要加载的 id
-        transaction.add(R.id.webview_content, new AppWebFragment());
-        transaction.commitAllowingStateLoss();
+        AppWebFragment webFragment = new AppWebFragment();
+        webFragment.setUri(Uri.parse("http://www.yy.com/54880976/54880976?tempId=16777217?f=70050"));
+        transaction.add(R.id.webview_content, webFragment);
+        transaction.commitAllowingStateLoss();*/
         sp = getSharedPreferences("config", MODE_PRIVATE);
         mDialog = new LoadingDialog(this);
         mRightButton = getHeadRightButton();
@@ -135,9 +156,9 @@ public class ConversationActivity extends BaseActivity implements View.OnClickLi
         if (mConversationType.equals(Conversation.ConversationType.GROUP)) {
             mBtn_customer.setVisibility(View.VISIBLE);
             mBtn_check_report.setVisibility(View.VISIBLE);
-            mRightButton.setBackground(getResources().getDrawable(R.drawable.icon2_menu));
+            mRightButton.setBackgroundResource(R.drawable.icon2_menu);
         } else if (mConversationType.equals(Conversation.ConversationType.PRIVATE) | mConversationType.equals(Conversation.ConversationType.PUBLIC_SERVICE) | mConversationType.equals(Conversation.ConversationType.DISCUSSION)) {
-            mRightButton.setBackground(getResources().getDrawable(R.drawable.icon1_menu));
+            mRightButton.setBackgroundResource(R.drawable.icon1_menu);
         } else {
             mRightButton.setVisibility(View.GONE);
             mRightButton.setClickable(false);
@@ -207,22 +228,17 @@ public class ConversationActivity extends BaseActivity implements View.OnClickLi
         //CallKit end 2
     }
 
-  /*  private void initWebView() {
-        binding.webView.getSettings().setJavaScriptEnabled(true);
-        binding.webView.getSettings().setUseWideViewPort(true);
-        binding.webView.getSettings().setLoadWithOverviewMode(true);
-        binding.webView.getSettings().setBuiltInZoomControls(true);
-        binding.webView.getSettings().setSupportZoom(true);
-        //自适应屏幕
-        binding.webView.getSettings().setLayoutAlgorithm(WebSettings.LayoutAlgorithm.SINGLE_COLUMN);
-        binding.webView.getSettings().setLoadWithOverviewMode(true);
-        MyWebViewClient mMyWebViewClient = new MyWebViewClient();
-        mMyWebViewClient.onPageFinished(binding.webView, videourl);
-        mMyWebViewClient.shouldOverrideUrlLoading(binding.webView, videourl);
-        mMyWebViewClient.onPageFinished(binding.webView, videourl);
-        binding.webView.setWebViewClient(mMyWebViewClient);
+
+    private void initVideoSettings() {
+        binding.videoView.requestFocus();
+        binding.videoView.setVideoChroma(MediaPlayer.VIDEOCHROMA_RGB565);
     }
-*/
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        binding.videoView.setVideoPath(videourl);
+    }
 
     /**
      * 判断是否是 Push 消息，判断是否需要做 connect 操作
@@ -342,12 +358,12 @@ public class ConversationActivity extends BaseActivity implements View.OnClickLi
 
     private ConversationFragmentEx fragment;
 
-    /**
+   /* *//**
      * 加载会话页面 ConversationFragmentEx 继承自 ConversationFragment
      *
      * @param mConversationType 会话类型
      * @param mTargetId         会话 Id
-     */
+     *//*
     private void enterFragment(Conversation.ConversationType mConversationType, String mTargetId) {
 
         fragment = new ConversationFragmentEx();
@@ -362,6 +378,18 @@ public class ConversationActivity extends BaseActivity implements View.OnClickLi
         //xxx 为你要加载的 id
         transaction.add(R.id.rong_content, fragment);
         transaction.commitAllowingStateLoss();
+    }*/
+
+    /**
+     * 加载会话页面 ConversationFragmentEx 继承自 ConversationFragment
+     *
+     * @param mConversationType 会话类型
+     * @param mTargetId         会话 Id
+     */
+    private void enterFragment(Conversation.ConversationType mConversationType, String mTargetId) {
+        Adapter adapter = new Adapter(getSupportFragmentManager(), mConversationType, mTargetId);
+        binding.vpContent.setAdapter(adapter);
+        binding.tabs.setupWithViewPager(binding.vpContent);
     }
 
 
@@ -627,7 +655,26 @@ public class ConversationActivity extends BaseActivity implements View.OnClickLi
 
     @Override
     public void onClick(View v) {
-        enterSettingActivity();
+        // LogUtils.d("开始点击切换");
+        if (v.getId() == R.id.swith_oritation) {
+            String[] permissions = {Manifest.permission.READ_PHONE_STATE};
+            if (!PermissionCheckUtil.requestPermissions(ConversationActivity.this, permissions)) {
+                LogUtils.d("没有权限");
+                return;
+            } else {
+                LogUtils.d("现在已经有权限");
+            }
+            //LogUtils.d("this.getResources().getConfiguration().orientation" + this.getResources().getConfiguration().orientation);
+            if (this.getResources().getConfiguration().orientation == Configuration.ORIENTATION_PORTRAIT) {
+                setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+                //  findViewById(R.id.webview_content).setLayoutParams(new FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, 800));
+            } else {
+                setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+            }
+            return;
+        } else {
+            enterSettingActivity();
+        }
     }
 
     @Override
@@ -665,4 +712,69 @@ public class ConversationActivity extends BaseActivity implements View.OnClickLi
         NLog.d("现在点击了右边的群主按钮");
     }
 
+    @Override
+    public void onConfigurationChanged(Configuration newConfig) {
+        super.onConfigurationChanged(newConfig);
+
+    }
+
+    private class Adapter extends FragmentPagerAdapter {
+        private ArrayList<Class<? extends UriFragment>> fragmentClazzs = new ArrayList<>();
+        private UriFragment[] fragmentInstances;
+        private Uri uri;
+
+        public Adapter(FragmentManager fm) {
+            super(fm);
+            for (Map.Entry<String, UriFragment> entry : HOMETABS.entrySet()) {
+                UriFragment tab = entry.getValue();
+                fragmentClazzs.add(tab.getClass());
+            }
+            fragmentInstances = new UriFragment[fragmentClazzs.size()];
+        }
+
+        public Adapter(FragmentManager fm, Conversation.ConversationType mConversationType, String mTargetId) {
+            super(fm);
+            for (Map.Entry<String, UriFragment> entry : HOMETABS.entrySet()) {
+                UriFragment tab = entry.getValue();
+                fragmentClazzs.add(tab.getClass());
+            }
+            uri = Uri.parse("rong://" + getApplicationInfo().packageName).buildUpon()
+                    .appendPath("conversation").appendPath(mConversationType.getName().toLowerCase())
+                    .appendQueryParameter("targetId", mTargetId).build();
+            fragmentInstances = new UriFragment[fragmentClazzs.size()];
+        }
+
+        @Override
+        public Fragment getItem(int position) {
+
+            return Fragment.instantiate(ConversationActivity.this, fragmentClazzs.get(position).getName());
+        }
+
+        @Override
+        public Object instantiateItem(ViewGroup container, int position) {
+            UriFragment f = (UriFragment) super.instantiateItem(container, position);
+            fragmentInstances[position] = f;
+            f.setUri(uri);
+            if (position == 2) {
+                f.setUri(Uri.parse("http://192.227.228.215:9999/api/v2/table/2501?s"));
+            }
+            return f;
+        }
+
+        @Override
+        public void destroyItem(ViewGroup container, int position, Object object) {
+            super.destroyItem(container, position, object);
+            fragmentInstances[position] = null;
+        }
+
+        @Override
+        public CharSequence getPageTitle(int position) {
+            return TAB_NAMES[position];
+        }
+
+        @Override
+        public int getCount() {
+            return fragmentClazzs.size();
+        }
+    }
 }

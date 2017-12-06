@@ -2,9 +2,9 @@ package cn.rongcloud.aochuang.ui.fragment;
 
 import android.databinding.DataBindingUtil;
 import android.graphics.Bitmap;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,13 +15,14 @@ import com.tencent.smtt.sdk.WebViewClient;
 import cn.rongcloud.aochuang.R;
 import cn.rongcloud.aochuang.databinding.FragmentWebBinding;
 import cn.rongcloud.aochuang.utils.LogUtils;
+import io.rong.imkit.fragment.UriFragment;
 
 
 /**
  * @author Xu
  */
 
-public class AppWebFragment extends Fragment {
+public class AppWebFragment extends UriFragment {
 
     private FragmentWebBinding binding;
     // private String originurl = "http://192.227.228.215:9999/api/v2/table/2501?s";
@@ -32,12 +33,6 @@ public class AppWebFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_web, container, false);
         return binding.getRoot();
-    }
-
-    @Override
-    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
-        super.onActivityCreated(savedInstanceState);
-        initWebView();
     }
 
 
@@ -76,4 +71,9 @@ public class AppWebFragment extends Fragment {
         binding.webView.destroy();
     }
 
+    @Override
+    protected void initFragment(Uri uri) {
+        originurl = uri.toString();
+        initWebView();
+    }
 }

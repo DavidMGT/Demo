@@ -15,6 +15,7 @@ import cn.rongcloud.aochuang.server.utils.json.JsonMananger;
 public class BaseAction {
 
     private static final String DOMAIN = "http://api.sealtalk.im";
+    // private static final String DOMAIN = "http://192.168.0.51:10000/v1";
     protected Context mContext;
     protected SyncHttpClient httpManager;
 
@@ -68,7 +69,7 @@ public class BaseAction {
      * @param url url
      */
     protected String getURL(String url) {
-        return getURL(url, new String[] {});
+        return getURL(url, new String[]{});
     }
 
     /**

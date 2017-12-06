@@ -10,4 +10,5 @@
     <dimen name="ksw_md_thumb_shadow_inset">11dp</dimen>
     <dimen name="ksw_md_thumb_shadow_inset_top">11dp</dimen>
     <dimen name="ksw_md_thumb_shadow_inset_bottom">10dp</dimen>
+    <dimen name="text_large">18sp</dimen>
 </resources>

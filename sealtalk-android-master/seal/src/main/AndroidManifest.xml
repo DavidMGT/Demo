@@ -3,9 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="cn.rongcloud.aochuang">
 
-    <uses-sdk
-        android:minSdkVersion="15"
-        android:targetSdkVersion="21" />
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -35,7 +32,7 @@
     <uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <!-- ⼩米 配置开始 < -->
     <permission
         android:name="cn.rongcloud.aochuang.permission.MIPUSH_RECEIVE"
@@ -213,9 +210,9 @@
         <activity android:name="cn.rongcloud.aochuang.ui.activity.DoubleChatRoomActivity" />
         <activity
             android:name="cn.rongcloud.aochuang.ui.activity.ConversationActivity"
-            android:launchMode="singleTop"
-            android:screenOrientation="portrait"
-            android:windowSoftInputMode="stateHidden|adjustResize">
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
 
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -248,6 +245,7 @@
         <!--会话列表-->
         <activity
             android:name="cn.rongcloud.aochuang.ui.activity.ConversationListActivity"
+            android:configChanges="orientation|keyboardHidden"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustResize">
@@ -459,33 +457,33 @@
             </intent-filter>
         </receiver>
         <!-- HMS 配置结束-->
+        <!--
+                &lt;!&ndash; GCM 配置 < &ndash;&gt;
+                <receiver
+                    android:name="com.google.android.gms.gcm.GcmReceiver"
+                    android:exported="true"
+                    android:permission="com.google.android.c2dm.permission.SEND">
+                    <intent-filter>
+                        <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                        <category android:name="cn.rongcloud.im" />
+                        &lt;!&ndash; 替换为自己的packagename < &ndash;&gt;
+                    </intent-filter>
+                </receiver>
 
-        <!-- GCM 配置 < -->
-        <receiver
-            android:name="com.google.android.gms.gcm.GcmReceiver"
-            android:exported="true"
-            android:permission="com.google.android.c2dm.permission.SEND">
-            <intent-filter>
-                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-                <category android:name="cn.rongcloud.im" />
-                <!-- 替换为自己的packagename < -->
-            </intent-filter>
-        </receiver>
-
-        <service
-            android:name="io.rong.push.platform.RongGcmListenerService"
-            android:exported="false">
-            <intent-filter>
-                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-            </intent-filter>
-        </service>
-        <service
-            android:name="io.rong.push.platform.RongGCMInstanceIDListenerService"
-            android:exported="false">
-            <intent-filter>
-                <action android:name="com.google.android.gms.iid.InstanceID" />
-            </intent-filter>
-        </service>
+                <service
+                    android:name="io.rong.push.platform.RongGcmListenerService"
+                    android:exported="false">
+                    <intent-filter>
+                        <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                    </intent-filter>
+                </service>
+                <service
+                    android:name="io.rong.push.platform.RongGCMInstanceIDListenerService"
+                    android:exported="false">
+                    <intent-filter>
+                        <action android:name="com.google.android.gms.iid.InstanceID" />
+                    </intent-filter>
+                </service>-->
         <!-- GCM 配置结束 < -->
 
         <!--第三方推送的权限 广播 服务 配置结束-->

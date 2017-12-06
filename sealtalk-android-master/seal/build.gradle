@@ -63,9 +63,11 @@ dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile "com.android.support:appcompat-v7:${ANDROID_SUPPORT_VERSION}"
     compile "com.android.support:support-v4:${ANDROID_SUPPORT_VERSION}"
+    compile "com.android.support:design:${ANDROID_SUPPORT_VERSION}"
     compile project(':recognizer')
     compile project(':contactcard')
     compile project(':sticker')
+    compile project(':vitamio')
     compile 'com.android.support:multidex:1.0.1'
     compile 'com.facebook.stetho:stetho:1.4.1'
     compile files('libs/MiPush_SDK_Client_3_2_2.jar')

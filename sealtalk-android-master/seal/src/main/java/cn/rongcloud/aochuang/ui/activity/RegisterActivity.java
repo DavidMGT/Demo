@@ -164,7 +164,8 @@ public class RegisterActivity extends BaseActivity implements View.OnClickListen
             case VERIFY_CODE:
                 return action.verifyCode("86", mPhone, mCode);
             case REGISTER:
-                return action.register(mNickName, mPassword, mCodeToken);
+                //return action.register(mNickName, mPassword, mCodeToken);
+                return action.register(mNickName, mPassword, mCodeToken, mPassword, mPhone, mPassword);
         }
         return super.doInBackground(requestCode, id);
     }
@@ -301,6 +302,7 @@ public class RegisterActivity extends BaseActivity implements View.OnClickListen
                 mNickName = mNickEdit.getText().toString().trim();
                 mPassword = mPasswordEdit.getText().toString().trim();
 
+/*
 
                 if (TextUtils.isEmpty(mNickName)) {
                     NToast.shortToast(mContext, getString(R.string.name_is_null));
@@ -338,10 +340,11 @@ public class RegisterActivity extends BaseActivity implements View.OnClickListen
                     NToast.shortToast(mContext, getString(R.string.not_send_code));
                     return;
                 }
+*/
 
                 LoadDialog.show(mContext);
-                request(VERIFY_CODE, true);
-
+                // request(VERIFY_CODE, true);
+                request(REGISTER);
                 break;
         }
     }

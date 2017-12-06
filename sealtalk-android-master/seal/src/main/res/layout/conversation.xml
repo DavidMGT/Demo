@@ -1,23 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:android="http://schemas.android.com/apk/res/android">
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <FrameLayout
+    <data></data>
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/rc_message_user_name"
         android:orientation="vertical">
 
         <FrameLayout
-            android:id="@+id/webview_content"
+            android:id="@+id/viedeo_root"
             android:layout_width="match_parent"
-            android:layout_height="100dp" />
+            android:layout_height="200dp">
 
-        <FrameLayout
-            android:id="@+id/rong_content"
+            <io.vov.vitamio.widget.VideoView
+                android:id="@+id/video_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:id="@+id/swith_oritation"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="bottom|right"
+                android:src="@drawable/_ic_wx" />
+        </FrameLayout>
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabs"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="100dp" />
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            app:tabIndicatorColor="@color/red"
+            app:tabSelectedTextColor="@color/red"
+            app:tabTextColor="@color/black" />
 
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
 
         <ImageView
             android:id="@+id/img"
@@ -25,5 +48,7 @@
             android:layout_height="match_parent"
             android:background="@drawable/de_bg"
             android:visibility="gone" />
-    </FrameLayout>
+
+
+    </LinearLayout>
 </layout>

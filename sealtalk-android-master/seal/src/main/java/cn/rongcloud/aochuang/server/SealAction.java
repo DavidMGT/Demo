@@ -4,7 +4,6 @@ import android.content.Context;
 import android.text.TextUtils;
 import android.util.Log;
 
-
 import org.apache.http.entity.StringEntity;
 
 import java.io.UnsupportedEncodingException;
@@ -65,16 +64,17 @@ import cn.rongcloud.aochuang.server.response.RestPasswordResponse;
 import cn.rongcloud.aochuang.server.response.SendCodeResponse;
 import cn.rongcloud.aochuang.server.response.SetFriendDisplayNameResponse;
 import cn.rongcloud.aochuang.server.response.SetGroupDisplayNameResponse;
+import cn.rongcloud.aochuang.server.response.SetGroupNameResponse;
 import cn.rongcloud.aochuang.server.response.SetGroupPortraitResponse;
 import cn.rongcloud.aochuang.server.response.SetNameResponse;
 import cn.rongcloud.aochuang.server.response.SetPortraitResponse;
 import cn.rongcloud.aochuang.server.response.SyncTotalDataResponse;
 import cn.rongcloud.aochuang.server.response.UserRelationshipResponse;
 import cn.rongcloud.aochuang.server.response.VerifyCodeResponse;
-import cn.rongcloud.aochuang.server.response.SetGroupNameResponse;
 import cn.rongcloud.aochuang.server.response.VersionResponse;
 import cn.rongcloud.aochuang.server.utils.NLog;
 import cn.rongcloud.aochuang.server.utils.json.JsonMananger;
+import cn.rongcloud.aochuang.utils.LogUtils;
 
 /**
  * Created by AMing on 16/1/14.
@@ -191,7 +191,8 @@ public class SealAction extends BaseAction {
      * @throws HttpException
      */
     public RegisterResponse register(String nickname, String password, String verification_token) throws HttpException {
-        String url = getURL("user/register");
+        // String url = getURL("user/register");
+        String url = getURL("user/createUser");
         StringEntity entity = null;
         try {
             entity = new StringEntity(JsonMananger.beanToJson(new RegisterRequest(nickname, password, verification_token)), ENCODING);
@@ -202,6 +203,38 @@ public class SealAction extends BaseAction {
         String result = httpManager.post(mContext, url, entity, CONTENT_TYPE);
         if (!TextUtils.isEmpty(result)) {
             NLog.e("RegisterResponse", result);
+            response = jsonToBean(result, RegisterResponse.class);
+        }
+        return response;
+    }
+
+    /**
+     * 注册 需要输入邀请人的邀请码
+     *
+     * @param password           密码
+     * @param verification_token 验证码
+     * @throws HttpException
+     */
+    public RegisterResponse register(String login_name, String password, String nick_name, String area_code, String phone, String verification_token) throws HttpException {
+        // String url = getURL("user/register");
+        String url = getURL("user/createUser");
+        StringEntity entity = null;
+        try {
+            RegisterRequest registerRequest = new RegisterRequest()
+                    .setLogin_name(login_name)
+                    .setPass_wd(password)
+                    .setNick_name("测试")
+                    .setArea_code("853")
+                    .setPhone(phone)
+                    .setInvite_user_id("1");
+            entity = new StringEntity(JsonMananger.beanToJson(registerRequest), ENCODING);
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
+        RegisterResponse response = null;
+        String result = httpManager.post(mContext, url, entity, CONTENT_TYPE);
+        if (!TextUtils.isEmpty(result)) {
+            LogUtils.d("RegisterResponse--" + result);
             response = jsonToBean(result, RegisterResponse.class);
         }
         return response;

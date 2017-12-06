@@ -17,6 +17,7 @@
             <option value="$PROJECT_DIR$/contactcard" />
             <option value="$PROJECT_DIR$/seal" />
             <option value="$PROJECT_DIR$/sticker" />
+            <option value="$PROJECT_DIR$/vitamio" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
