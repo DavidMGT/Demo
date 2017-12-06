@@ -1,5 +1,6 @@
 package cn.rongcloud.aochuang.ui.fragment;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,10 +15,12 @@ import cn.rongcloud.aochuang.message.plugin.ResultPlugin;
 import cn.rongcloud.aochuang.ui.activity.ReadReceiptDetailActivity;
 import cn.rongcloud.aochuang.ui.manager.StakeManager;
 import cn.rongcloud.aochuang.utils.LogUtils;
+import io.rong.imkit.MyMessageListAdapter;
 import io.rong.imkit.RectPicMessage;
 import io.rong.imkit.RongIM;
 import io.rong.imkit.fragment.ConversationFragment;
 import io.rong.imkit.plugin.IPluginModule;
+import io.rong.imkit.widget.adapter.MessageListAdapter;
 import io.rong.imlib.IRongCallback;
 import io.rong.imlib.model.Conversation;
 import io.rong.imlib.model.Message;
@@ -38,11 +41,11 @@ public class ConversationFragmentEx extends ConversationFragment {
         manager = new StakeManager(this, view);
         return view;
     }
-/*
+
     @Override
     public MessageListAdapter onResolveAdapter(Context context) {
         return new MyMessageListAdapter(context);
-    }*/
+    }
 
     @Override
     public void onReadReceiptStateClick(io.rong.imlib.model.Message message) {

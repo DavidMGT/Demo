@@ -13,6 +13,7 @@ import android.widget.TextView;
 import com.jrmf360.rylib.common.util.ToastUtil;
 
 import cn.rongcloud.aochuang.R;
+import io.rong.imkit.AESCrypt;
 import io.rong.eventbus.EventBus;
 import io.rong.imkit.fragment.ConversationFragment;
 import io.rong.imlib.IRongCallback;
@@ -107,7 +108,7 @@ public class StakeManager {
                     int i1 = Integer.parseInt(i);
                     if (i1 > 0) {
                         // 构建文本消息实例
-                        final TextMessage textMessage = TextMessage.obtain(s);
+                        final TextMessage textMessage = TextMessage.obtain(AESCrypt.encrypt(s));
                         RongIMClient.getInstance().sendMessage(fragment.getConversationType(), fragment.getTargetId(), textMessage, null, null, new IRongCallback.ISendMessageCallback() {
 
                             @Override

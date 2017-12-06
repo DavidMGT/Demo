@@ -35,7 +35,7 @@ public class FitStatusBarHeightView extends View {
         if (activity != null) {
             StatusBarCompat.translucentStatusBar(activity, true);
         }
-        setBackgroundResource(R.color.transparent);
+        setBackgroundResource(R.color.seal_bg);
     }
 
     @Override

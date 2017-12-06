@@ -21,7 +21,6 @@ import android.view.KeyEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.inputmethod.InputMethodManager;
-import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 
@@ -112,7 +111,6 @@ public class ConversationActivity extends BaseActivity implements View.OnClickLi
     private int currentSize = SIZE_16_9;
     private int screenWidth = 0;
     private int screenHeight = 0;
-    private Button mRightButton;
     ConversationBinding binding;
     String videourl = "rtmp://live.hkstv.hk.lxdns.com/live/hks";
     String videourl1 = "rtmp://edc03.xpxyaba.com:443/edsource/table2501";
@@ -140,8 +138,6 @@ public class ConversationActivity extends BaseActivity implements View.OnClickLi
         transaction.commitAllowingStateLoss();*/
         sp = getSharedPreferences("config", MODE_PRIVATE);
         mDialog = new LoadingDialog(this);
-        mRightButton = getHeadRightButton();
-
         Intent intent = getIntent();
 
         if (intent == null || intent.getData() == null)
@@ -165,15 +161,15 @@ public class ConversationActivity extends BaseActivity implements View.OnClickLi
         if (mConversationType.equals(Conversation.ConversationType.GROUP)) {
             mBtn_customer.setVisibility(View.VISIBLE);
             mBtn_check_report.setVisibility(View.VISIBLE);
-            mRightButton.setBackgroundResource(R.drawable.icon2_menu);
+            mBtnRight.setBackgroundResource(R.drawable.icon2_menu);
         } else if (mConversationType.equals(Conversation.ConversationType.PRIVATE) | mConversationType.equals(Conversation.ConversationType.PUBLIC_SERVICE) | mConversationType.equals(Conversation.ConversationType.DISCUSSION)) {
-            mRightButton.setBackgroundResource(R.drawable.icon1_menu);
+            mBtnRight.setBackgroundResource(R.drawable.icon1_menu);
         } else {
-            mRightButton.setVisibility(View.GONE);
-            mRightButton.setClickable(false);
+            mBtnRight.setVisibility(View.GONE);
+            mBtnRight.setClickable(false);
         }
-        mRightButton.setOnClickListener(this);
-
+        mBtnRight.setOnClickListener(this);
+        mBtnLeft.setOnClickListener(this);
         isPushMessage(intent);
 
         mHandler = new Handler(new Handler.Callback() {
@@ -684,6 +680,8 @@ public class ConversationActivity extends BaseActivity implements View.OnClickLi
                 setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
             }
             return;
+        } else if (v.getId() == R.id.btn_left) {
+            finish();
         } else {
             enterSettingActivity();
         }
