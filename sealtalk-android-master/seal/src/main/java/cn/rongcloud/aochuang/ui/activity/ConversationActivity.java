@@ -22,6 +22,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
+import android.widget.FrameLayout;
+import android.widget.LinearLayout;
 
 import com.jrmf360.rylib.common.util.ToastUtil;
 
@@ -38,6 +40,7 @@ import cn.rongcloud.aochuang.SealAppContext;
 import cn.rongcloud.aochuang.SealUserInfoManager;
 import cn.rongcloud.aochuang.databinding.ConversationBinding;
 import cn.rongcloud.aochuang.db.GroupMember;
+import cn.rongcloud.aochuang.server.utils.CommonUtils;
 import cn.rongcloud.aochuang.server.utils.NLog;
 import cn.rongcloud.aochuang.server.utils.NToast;
 import cn.rongcloud.aochuang.ui.fragment.AppWebFragment;
@@ -103,10 +106,16 @@ public class ConversationActivity extends BaseActivity implements View.OnClickLi
     public static final int SET_TEXT_TYPING_TITLE = 1;
     public static final int SET_VOICE_TYPING_TITLE = 2;
     public static final int SET_TARGET_ID_TITLE = 0;
-
+    private static int SIZE_DEFAULT = 0;
+    private static int SIZE_4_3 = 1;
+    private static int SIZE_16_9 = 2;
+    private int currentSize = SIZE_16_9;
+    private int screenWidth = 0;
+    private int screenHeight = 0;
     private Button mRightButton;
     ConversationBinding binding;
     String videourl = "rtmp://live.hkstv.hk.lxdns.com/live/hks";
+    String videourl1 = "rtmp://edc03.xpxyaba.com:443/edsource/table2501";
     private final static LinkedHashMap<String, UriFragment> HOMETABS = new LinkedHashMap<>(3);
     private String[] TAB_NAMES = new String[]{"聊天", "玩", " 记录"};
 
@@ -225,6 +234,9 @@ public class ConversationActivity extends BaseActivity implements View.OnClickLi
                 return null;
             }
         });
+        binding.videoView.setVideoPath(videourl1);
+        screenWidth = CommonUtils.getScreenWidth(this);
+        screenHeight = CommonUtils.getScreenHeight(this);
         //CallKit end 2
     }
 
@@ -237,7 +249,7 @@ public class ConversationActivity extends BaseActivity implements View.OnClickLi
     @Override
     protected void onResume() {
         super.onResume();
-        binding.videoView.setVideoPath(videourl);
+
     }
 
     /**
@@ -715,7 +727,46 @@ public class ConversationActivity extends BaseActivity implements View.OnClickLi
     @Override
     public void onConfigurationChanged(Configuration newConfig) {
         super.onConfigurationChanged(newConfig);
+        LinearLayout.LayoutParams layoutParams = (LinearLayout.LayoutParams) binding.viedeoRoot.getLayoutParams();
+        if (newConfig.orientation == Configuration.ORIENTATION_PORTRAIT) {
+            layoutParams.width = ViewGroup.LayoutParams.MATCH_PARENT;
+            layoutParams.height = getWindowManager().getDefaultDisplay().getHeight() * 1 / 4;
+        } else {
+            layoutParams.width = ViewGroup.LayoutParams.MATCH_PARENT;
+            layoutParams.height = ViewGroup.LayoutParams.MATCH_PARENT;
+        }
+        binding.viedeoRoot.setLayoutParams(layoutParams);
+        binding.videoView.setLayoutParams(new FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
+    }
 
+    public void setScreenRate(int rate) {
+        int width = 0;
+        int height = 0;
+        if (getRequestedOrientation() == ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE)// 横屏
+        {
+            if (rate == SIZE_DEFAULT) {
+                width = binding.videoView.getVideoWidth();
+                height = binding.videoView.getVideoHeight();
+            } else if (rate == SIZE_4_3) {
+                width = screenWidth / 3 * 4;
+                height = screenWidth;
+            } else if (rate == SIZE_16_9) {
+                width = screenWidth / 9 * 16;
+                height = screenWidth;
+            }
+        } else //竖屏
+        {
+            if (rate == SIZE_DEFAULT) {
+                width = binding.videoView.getVideoWidth();
+                height = binding.videoView.getVideoHeight();
+            } else if (rate == SIZE_4_3) {
+                width = screenWidth;
+                height = screenWidth * 3 / 4;
+            } else if (rate == SIZE_16_9) {
+                width = screenWidth;
+                height = screenWidth * 9 / 16;
+            }
+        }
     }
 
     private class Adapter extends FragmentPagerAdapter {

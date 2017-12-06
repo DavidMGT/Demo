@@ -7,7 +7,9 @@ import android.content.SharedPreferences;
 import android.net.Uri;
 import android.support.multidex.MultiDexApplication;
 import android.text.TextUtils;
+import android.util.DisplayMetrics;
 import android.view.View;
+import android.view.WindowManager;
 
 import com.facebook.stetho.Stetho;
 import com.facebook.stetho.dumpapp.DumperPlugin;
@@ -49,6 +51,8 @@ public class App extends MultiDexApplication {
 
     private static DisplayImageOptions options;
     private static App instance;
+    private DisplayMetrics mDisplayMetrics;
+
 
     public static App getContext() {
         synchronized (App.class) {
@@ -207,4 +211,13 @@ public class App extends MultiDexApplication {
         return null;
     }
 
+    public DisplayMetrics getDisplayMetrics() {
+        if (mDisplayMetrics == null) {
+            DisplayMetrics metric = new DisplayMetrics();
+            WindowManager windowManager = (WindowManager) getSystemService(Context.WINDOW_SERVICE);
+            windowManager.getDefaultDisplay().getMetrics(metric);
+            mDisplayMetrics = metric;
+        }
+        return mDisplayMetrics;
+    }
 }
