@@ -13,8 +13,8 @@ import android.widget.TextView;
 import com.jrmf360.rylib.common.util.ToastUtil;
 
 import cn.rongcloud.aochuang.R;
-import io.rong.imkit.AESCrypt;
 import io.rong.eventbus.EventBus;
+import io.rong.imkit.AESCrypt;
 import io.rong.imkit.fragment.ConversationFragment;
 import io.rong.imlib.IRongCallback;
 import io.rong.imlib.RongIMClient;
@@ -28,9 +28,15 @@ import io.rong.message.TextMessage;
 public class StakeManager {
     private ConversationFragment fragment;
     private Activity context;
+
+
     private View mCustomlayout, originView;
     private ViewGroup rc_container_layout, user_stake_content_layout;
     private EditText mEditText;
+
+    public boolean IsCustomlayoutVisable() {
+        return mCustomlayout.getVisibility() == View.VISIBLE;
+    }
 
     private View.OnClickListener onNumInputClick = new View.OnClickListener() {
         @Override
@@ -126,6 +132,7 @@ public class StakeManager {
                                 EventBus.getDefault().post(message);
                             }
                         });
+                        dismissBoad();
                     } else {
                         ToastUtil.showToast(context, "你的押注不符合规则.");
                     }
@@ -154,6 +161,13 @@ public class StakeManager {
             originView.requestFocus();
             return false;
         }
+    }
+
+    public void dismissBoad() {
+        mCustomlayout.setVisibility(View.GONE);
+        rc_container_layout.removeAllViews();
+        rc_container_layout.addView(originView);
+        originView.requestFocus();
     }
 
     public void onPluginToggleClick(View v, ViewGroup extensionBoard) {

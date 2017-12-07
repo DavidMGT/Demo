@@ -123,6 +123,8 @@ public class ConversationActivity extends BaseActivity implements View.OnClickLi
         HOMETABS.put("记录", new AppWebFragment());
     }
 
+    private Adapter adapter;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -248,11 +250,6 @@ public class ConversationActivity extends BaseActivity implements View.OnClickLi
         });
     }
 
-    @Override
-    public void onBackPressed() {
-        super.onBackPressed();
-        finish();
-    }
 
     /**
      * 判断是否是 Push 消息，判断是否需要做 connect 操作
@@ -401,7 +398,7 @@ public class ConversationActivity extends BaseActivity implements View.OnClickLi
      * @param mTargetId         会话 Id
      */
     private void enterFragment(Conversation.ConversationType mConversationType, String mTargetId) {
-        Adapter adapter = new Adapter(getSupportFragmentManager(), mConversationType, mTargetId);
+        adapter = new Adapter(getSupportFragmentManager(), mConversationType, mTargetId);
         binding.vpContent.setAdapter(adapter);
         binding.tabs.setupWithViewPager(binding.vpContent);
     }
@@ -609,6 +606,7 @@ public class ConversationActivity extends BaseActivity implements View.OnClickLi
 
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
+        fragment = (ConversationFragmentEx) adapter.getFragmentInstances()[0];
         if (KeyEvent.KEYCODE_BACK == event.getKeyCode()) {
             if (fragment != null && !fragment.onBackPressed()) {
                 if (isFromPush) {
@@ -777,6 +775,10 @@ public class ConversationActivity extends BaseActivity implements View.OnClickLi
         private ArrayList<Class<? extends UriFragment>> fragmentClazzs = new ArrayList<>();
         private UriFragment[] fragmentInstances;
         private Uri uri;
+
+        public UriFragment[] getFragmentInstances() {
+            return fragmentInstances;
+        }
 
         public Adapter(FragmentManager fm) {
             super(fm);

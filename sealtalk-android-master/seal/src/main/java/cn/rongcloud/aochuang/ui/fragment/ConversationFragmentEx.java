@@ -123,4 +123,14 @@ public class ConversationFragmentEx extends ConversationFragment {
             RLog.e("ConversationFragment", "text content must not be null");
         }
     }
+
+    public boolean onBackPressed() {
+        if (manager.IsCustomlayoutVisable()) {
+            manager.dismissBoad();
+            return true;
+        } else {
+            super.onBackPressed();
+            return true;
+        }
+    }
 }

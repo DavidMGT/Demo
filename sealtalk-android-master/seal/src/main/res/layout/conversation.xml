@@ -4,59 +4,54 @@
 
     <data></data>
 
-    <ScrollView
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:fillViewport="true">
+        android:background="@color/rc_message_user_name"
+        android:orientation="vertical">
 
-        <LinearLayout
+        <FrameLayout
+            android:id="@+id/viedeo_root"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@color/rc_message_user_name"
-            android:orientation="vertical">
+            android:layout_height="200dp">
 
-            <FrameLayout
-                android:id="@+id/viedeo_root"
-                android:layout_width="match_parent"
-                android:layout_height="200dp">
-
-                <io.vov.vitamio.widget.VideoView
-                    android:id="@+id/video_view"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
-
-                <ImageView
-                    android:id="@+id/swith_oritation"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:layout_gravity="bottom|right"
-                    android:src="@drawable/icon_fullscreen_normal" />
-            </FrameLayout>
-
-            <android.support.design.widget.TabLayout
-                android:id="@+id/tabs"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/white"
-                app:tabIndicatorColor="@color/red"
-                app:tabSelectedTextColor="@color/red"
-                app:tabTextColor="@color/black" />
-
-
-            <android.support.v4.view.ViewPager
-                android:id="@+id/vp_content"
+            <io.vov.vitamio.widget.VideoView
+                android:id="@+id/video_view"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
 
-
             <ImageView
-                android:id="@+id/img"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@drawable/de_bg"
-                android:visibility="gone" />
+                android:id="@+id/swith_oritation"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="bottom|right"
+                android:src="@drawable/icon_fullscreen_normal" />
+        </FrameLayout>
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            app:tabIndicatorColor="@color/red"
+            app:tabSelectedTextColor="@color/red"
+            app:tabTextColor="@color/black" />
 
 
-        </LinearLayout>
-    </ScrollView>
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/de_bg"
+            android:visibility="gone" />
+
+
+    </LinearLayout>
 </layout>
