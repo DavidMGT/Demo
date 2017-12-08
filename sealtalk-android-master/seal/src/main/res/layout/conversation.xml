@@ -21,6 +21,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
 
+            <ProgressBar
+                android:id="@+id/pg_buffer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
             <ImageView
                 android:id="@+id/swith_oritation"
                 android:layout_width="50dp"

@@ -75,6 +75,7 @@ import io.vov.vitamio.MediaPlayer;
 @SuppressLint("SetJavaScriptEnabled")
 public class ConversationActivity extends BaseActivity implements View.OnClickListener {
 
+    private static final int DEFAULT_BUFFER_SIZE = 1024;
     private String TAG = ConversationActivity.class.getSimpleName();
     /**
      * 对方id
@@ -232,22 +233,25 @@ public class ConversationActivity extends BaseActivity implements View.OnClickLi
                 return null;
             }
         });
-        binding.videoView.setVideoPath(videourl1);
+        initVideoView();
         screenWidth = CommonUtils.getScreenWidth(this);
         screenHeight = CommonUtils.getScreenHeight(this);
         //CallKit end 2
     }
 
-
-    private void initVideoSettings() {
-        binding.videoView.requestFocus();
-        binding.videoView.setVideoChroma(MediaPlayer.VIDEOCHROMA_RGB565);
-        binding.videoView.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+    private void initVideoView() {
+        binding.videoView.setVideoPath(videourl1);
+        binding.videoView.setBufferSize(DEFAULT_BUFFER_SIZE);
+        // binding.videoView.setMediaController(new MediaController(this));
+        binding.videoView.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
             @Override
-            public void onCompletion(MediaPlayer mp) {
-
+            public void onPrepared(MediaPlayer mp) {
+                LogUtils.d("onPrepared---" + mp.getBufferProgress());
+                binding.pgBuffer.setVisibility(View.GONE);
             }
         });
+        binding.videoView.requestFocus();
+
     }
 
 

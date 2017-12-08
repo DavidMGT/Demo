@@ -371,7 +371,7 @@
 
 
         <meta-data
-            android:name="UMENG_APPKEY"
+            android:name="vitamio"
             android:value="577b2b55e0f55afbcb0026c6" />
         <meta-data
             android:name="UMENG_CHANNEL"
