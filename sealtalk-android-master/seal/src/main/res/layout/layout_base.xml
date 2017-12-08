@@ -48,18 +48,6 @@
             android:textSize="18sp" />
 
         <Button
-            android:id="@+id/btn_check_info"
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_centerVertical="true"
-            android:layout_marginRight="10dp"
-            android:background="@drawable/seal_logo"
-            android:maxLines="1"
-            android:onClick="onHeadCheckReportButtonClick"
-            android:textColor="@drawable/selector_btn_top"
-            android:visibility="gone" />
-
-        <Button
             android:id="@+id/btn_customer"
             android:layout_width="24dp"
             android:layout_height="24dp"

@@ -160,10 +160,8 @@ public class ConversationActivity extends BaseActivity implements View.OnClickLi
 
         setActionBarTitle(mConversationType, mTargetId);
 
-
         if (mConversationType.equals(Conversation.ConversationType.GROUP)) {
             mBtn_customer.setVisibility(View.VISIBLE);
-            mBtn_check_report.setVisibility(View.VISIBLE);
             mBtnRight.setBackgroundResource(R.drawable.icon2_menu);
         } else if (mConversationType.equals(Conversation.ConversationType.PRIVATE) | mConversationType.equals(Conversation.ConversationType.PUBLIC_SERVICE) | mConversationType.equals(Conversation.ConversationType.DISCUSSION)) {
             mBtnRight.setBackgroundResource(R.drawable.icon1_menu);

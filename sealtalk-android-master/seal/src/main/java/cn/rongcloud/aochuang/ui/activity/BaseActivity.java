@@ -35,7 +35,6 @@ public abstract class BaseActivity extends FragmentActivity implements OnDataLis
     protected Button mBtnLeft;
     protected Button mBtnRight;
     protected Button mBtn_customer;
-    protected Button mBtn_check_report;
     protected TextView mTitle;
     protected TextView mHeadRightText;
     private Drawable mBtnBackDrawable;
@@ -55,7 +54,6 @@ public abstract class BaseActivity extends FragmentActivity implements OnDataLis
         mBtnLeft = (Button) super.findViewById(R.id.btn_left);
         mBtnRight = (Button) super.findViewById(R.id.btn_right);
         mBtn_customer = (Button) super.findViewById(R.id.btn_customer);
-        mBtn_check_report = (Button) super.findViewById(R.id.btn_check_info);
         mTitle = (TextView) super.findViewById(R.id.tv_title);
         mBtnBackDrawable = getResources().getDrawable(R.drawable.ac_back_icon);
         mBtnBackDrawable.setBounds(0, 0, mBtnBackDrawable.getMinimumWidth(),
@@ -110,14 +108,6 @@ public abstract class BaseActivity extends FragmentActivity implements OnDataLis
         mBtn_customer.setVisibility(visibility);
     }
 
-    /**
-     * 设置客服按钮你是否可见
-     *
-     * @param visibility
-     */
-    public void setRightCheckReportVisiablity(int visibility) {
-        mBtn_check_report.setVisibility(visibility);
-    }
 
     /**
      * 设置右边是否可见
