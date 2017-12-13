@@ -20,6 +20,14 @@ public class LoginResponse {
 
     private ResultEntity result;
 
+    @Override
+    public String toString() {
+        return "LoginResponse{" +
+                "code=" + code +
+                ", result=" + result +
+                '}';
+    }
+
     public void setCode(int code) {
         this.code = code;
     }
@@ -38,6 +46,15 @@ public class LoginResponse {
 
     public static class ResultEntity {
         private String id;
+
+        @Override
+        public String toString() {
+            return "ResultEntity{" +
+                    "id='" + id + '\'' +
+                    ", token='" + token + '\'' +
+                    '}';
+        }
+
         private String token;
 
         public void setId(String id) {

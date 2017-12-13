@@ -743,35 +743,6 @@ public class ConversationActivity extends BaseActivity implements View.OnClickLi
         binding.videoView.setLayoutParams(new FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
     }
 
-    public void setScreenRate(int rate) {
-        int width = 0;
-        int height = 0;
-        if (getRequestedOrientation() == ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE)// 横屏
-        {
-            if (rate == SIZE_DEFAULT) {
-                width = binding.videoView.getVideoWidth();
-                height = binding.videoView.getVideoHeight();
-            } else if (rate == SIZE_4_3) {
-                width = screenWidth / 3 * 4;
-                height = screenWidth;
-            } else if (rate == SIZE_16_9) {
-                width = screenWidth / 9 * 16;
-                height = screenWidth;
-            }
-        } else //竖屏
-        {
-            if (rate == SIZE_DEFAULT) {
-                width = binding.videoView.getVideoWidth();
-                height = binding.videoView.getVideoHeight();
-            } else if (rate == SIZE_4_3) {
-                width = screenWidth;
-                height = screenWidth * 3 / 4;
-            } else if (rate == SIZE_16_9) {
-                width = screenWidth;
-                height = screenWidth * 9 / 16;
-            }
-        }
-    }
 
     private class Adapter extends FragmentPagerAdapter {
         private ArrayList<Class<? extends UriFragment>> fragmentClazzs = new ArrayList<>();

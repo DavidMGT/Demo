@@ -24,7 +24,7 @@ import cn.rongcloud.aochuang.SealUserInfoManager;
 import cn.rongcloud.aochuang.server.network.http.HttpException;
 import cn.rongcloud.aochuang.server.response.GetTokenResponse;
 import cn.rongcloud.aochuang.server.response.GetUserInfoByIdResponse;
-import cn.rongcloud.aochuang.server.response.LoginResponse;
+import cn.rongcloud.aochuang.server.response.LoginResultResponse;
 import cn.rongcloud.aochuang.server.utils.AMUtils;
 import cn.rongcloud.aochuang.server.utils.CommonUtils;
 import cn.rongcloud.aochuang.server.utils.NLog;
@@ -32,6 +32,7 @@ import cn.rongcloud.aochuang.server.utils.NToast;
 import cn.rongcloud.aochuang.server.utils.RongGenerate;
 import cn.rongcloud.aochuang.server.widget.ClearWriteEditText;
 import cn.rongcloud.aochuang.server.widget.LoadDialog;
+import io.rong.imkit.LogUtils;
 import io.rong.imkit.RongIM;
 import io.rong.imlib.RongIMClient;
 import io.rong.imlib.model.UserInfo;
@@ -201,7 +202,7 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
     public Object doInBackground(int requestCode, String id) throws HttpException {
         switch (requestCode) {
             case LOGIN:
-                return action.login("86", phoneString, passwordString);
+                return action.doLogin(phoneString, passwordString);
             case GET_TOKEN:
                 return action.getToken();
             case SYNC_USER_INFO:
@@ -212,12 +213,13 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
 
     @Override
     public void onSuccess(int requestCode, Object result) {
+        LogUtils.d("返回结果是requestCode" + requestCode + "result=" + result.toString());
         if (result != null) {
             switch (requestCode) {
                 case LOGIN:
-                    LoginResponse loginResponse = (LoginResponse) result;
-                    if (loginResponse.getCode() == 200) {
-                        loginToken = loginResponse.getResult().getToken();
+                    LoginResultResponse loginResponse = (LoginResultResponse) result;
+                    if (loginResponse.getResultCode() == 200) {
+                        loginToken = loginResponse.getData().getToken();
                         if (!TextUtils.isEmpty(loginToken)) {
                             RongIM.connect(loginToken, new RongIMClient.ConnectCallback() {
                                 @Override
@@ -242,10 +244,10 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
                                 }
                             });
                         }
-                    } else if (loginResponse.getCode() == 100) {
+                    } else if (loginResponse.getResultCode() == 100) {
                         LoadDialog.dismiss(mContext);
                         NToast.shortToast(mContext, R.string.phone_or_psw_error);
-                    } else if (loginResponse.getCode() == 1000) {
+                    } else if (loginResponse.getResultCode() == 1000) {
                         LoadDialog.dismiss(mContext);
                         NToast.shortToast(mContext, R.string.phone_or_psw_error);
                     }

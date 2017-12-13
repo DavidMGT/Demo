@@ -9,6 +9,7 @@ import org.apache.http.entity.StringEntity;
 import java.io.UnsupportedEncodingException;
 import java.util.List;
 
+import cn.rongcloud.aochuang.model.api.ApiPath;
 import cn.rongcloud.aochuang.server.network.http.HttpException;
 import cn.rongcloud.aochuang.server.request.AddGroupMemberRequest;
 import cn.rongcloud.aochuang.server.request.AddToBlackListRequest;
@@ -56,6 +57,7 @@ import cn.rongcloud.aochuang.server.response.GetUserInfoByPhoneResponse;
 import cn.rongcloud.aochuang.server.response.GetUserInfosResponse;
 import cn.rongcloud.aochuang.server.response.JoinGroupResponse;
 import cn.rongcloud.aochuang.server.response.LoginResponse;
+import cn.rongcloud.aochuang.server.response.LoginResultResponse;
 import cn.rongcloud.aochuang.server.response.QiNiuTokenResponse;
 import cn.rongcloud.aochuang.server.response.QuitGroupResponse;
 import cn.rongcloud.aochuang.server.response.RegisterResponse;
@@ -263,6 +265,32 @@ public class SealAction extends BaseAction {
         if (!TextUtils.isEmpty(result)) {
             NLog.e("LoginResponse", result);
             response = JsonMananger.jsonToBean(result, LoginResponse.class);
+        }
+        return response;
+    }
+
+    /**
+     * 登录: 登录成功后，会设置 Cookie，后续接口调用需要登录的权限都依赖于 Cookie。
+     *
+     * @param user_name 手机号
+     * @param password  密码
+     * @throws HttpException
+     */
+    public LoginResultResponse doLogin(String user_name, String password) throws HttpException {
+        String uri = getURL(ApiPath.doLogin);
+        String json = JsonMananger.beanToJson(new LoginRequest(user_name, password));
+        StringEntity entity = null;
+        try {
+            entity = new StringEntity(json, ENCODING);
+            entity.setContentType(CONTENT_TYPE);
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
+        String result = httpManager.post(mContext, uri, entity, CONTENT_TYPE);
+        LoginResultResponse response = null;
+        if (!TextUtils.isEmpty(result)) {
+            LogUtils.d("LoginResultResponse" + result);
+            response = JsonMananger.jsonToBean(result, LoginResultResponse.class);
         }
         return response;
     }

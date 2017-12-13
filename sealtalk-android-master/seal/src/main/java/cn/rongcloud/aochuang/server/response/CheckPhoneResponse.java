@@ -9,6 +9,14 @@ public class CheckPhoneResponse {
 
     private int code;
 
+    @Override
+    public String toString() {
+        return "CheckPhoneResponse{" +
+                "code=" + code +
+                ", result=" + result +
+                '}';
+    }
+
     private boolean result;
 
     public int getCode() {

@@ -6,7 +6,7 @@ import android.util.Log;
  * Created by t00284576 on 2015/10/27.
  */
 public class LogUtils {
-    private final static String TAG = "onPrepared";
+    private final static String TAG = "RongLog";
     static String className;
     static String methodName;
     static int lineNumber;

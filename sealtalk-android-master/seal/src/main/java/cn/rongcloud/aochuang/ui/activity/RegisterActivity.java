@@ -26,6 +26,7 @@ import cn.rongcloud.aochuang.server.utils.downtime.DownTimer;
 import cn.rongcloud.aochuang.server.utils.downtime.DownTimerListener;
 import cn.rongcloud.aochuang.server.widget.ClearWriteEditText;
 import cn.rongcloud.aochuang.server.widget.LoadDialog;
+import cn.rongcloud.aochuang.utils.LogUtils;
 
 /**
  * Created by AMing on 16/1/14.
@@ -165,13 +166,14 @@ public class RegisterActivity extends BaseActivity implements View.OnClickListen
                 return action.verifyCode("86", mPhone, mCode);
             case REGISTER:
                 //return action.register(mNickName, mPassword, mCodeToken);
-                return action.register(mNickName, mPassword, mCodeToken, mPassword, mPhone, mPassword);
+                return action.register(mPhone, mPassword, mCodeToken, mPassword, mPhone, mPassword);
         }
         return super.doInBackground(requestCode, id);
     }
 
     @Override
     public void onSuccess(int requestCode, Object result) {
+        LogUtils.d("返回的结果是requestCode=" + requestCode + "：result=" + result.toString());
         if (result != null) {
             switch (requestCode) {
                 case CHECK_PHONE:
@@ -225,7 +227,7 @@ public class RegisterActivity extends BaseActivity implements View.OnClickListen
                 case REGISTER:
                     RegisterResponse rres = (RegisterResponse) result;
                     switch (rres.getCode()) {
-                        case 200:
+                        case 100:
                             LoadDialog.dismiss(mContext);
                             NToast.shortToast(mContext, R.string.register_success);
                             Intent data = new Intent();
@@ -343,8 +345,8 @@ public class RegisterActivity extends BaseActivity implements View.OnClickListen
 */
 
                 LoadDialog.show(mContext);
-                // request(VERIFY_CODE, true);
-                request(REGISTER);
+                request(REGISTER, true);
+                // request(REGISTER);
                 break;
         }
     }
